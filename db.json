@@ -1,0 +1,2555 @@
+{
+  "topBar": [
+    {
+      "ship": "Zero Shipping, Easy Returns",
+      "order": "Order Now",
+      "beSeller": "Become a Seller",
+      "details": "Details",
+      "id": "4467"
+    }
+  ],
+  "sellers": [
+    {
+      "id": "1",
+      "name": "Mohammed Ebrahim",
+      "email": "mohammed.ebrahim9921@gmail.com",
+      "password": "Aa123456@",
+      "storeName": "Steng",
+      "image": "https://placehold.co/600x400/EEE/31343C",
+      "mainCategory": "Electronics",
+      "location": "Riyadh, Saudi Arabia",
+      "rating": 4.8,
+      "verified": true
+    },
+    {
+      "id": "2",
+      "name": "Aya Azzam",
+      "email": "Aya@gmail.com",
+      "password": "Aa123456",
+      "storeName": "Active",
+      "image": "https://placehold.co/600x400/0587A7/31343C",
+      "mainCategory": "Clothing",
+      "location": "Jeddah, Saudi Arabia",
+      "rating": 4.6,
+      "verified": true
+    }
+  ],
+  "loggedUsers": [
+    {
+      "id": "929c",
+      "sellerId": 1,
+      "email": "mohammed.ebrahim9921@gmail.com",
+      "password": "Aa123456@",
+      "loginStatus": true,
+      "store": "Steng"
+    }
+  ],
+  "products": [
+    {
+      "id": "1",
+      "sellerId": 1,
+      "name": "Iphone 17 Pro Max",
+      "description": "This is a Smart Phone Latest Verision.",
+      "price": 5663.99,
+      "salePrice": 4400,
+      "stock": 15,
+      "category": "Mobile Phones",
+      "image": "/imgs/17.jpg",
+      "type": "New Arrivals",
+      "brand": "Apple",
+      "sku": "IP17PM-512GB",
+      "rating": 5,
+      "reviewCount": 0,
+      "images": [
+        "https://images.pexels.com/photos/31624011/pexels-photo-31624011.jpeg",
+        "https://images.pexels.com/photos/28223602/pexels-photo-28223602.jpeg"
+      ],
+      "specs": {
+        "screen": "6.9 inches",
+        "resolution": "2796 x 1290",
+        "storage": "512GB",
+        "ram": "12GB",
+        "processor": "Apple A17",
+        "gpu": "Apple GPU",
+        "battery": "4800mAh",
+        "charging": "USB-C",
+        "os": "iOS",
+        "connectivity": "5G, Wi-Fi, Bluetooth",
+        "ports": "USB-C",
+        "cameraFront": "12MP",
+        "cameraBack": "48MP",
+        "audio": "Stereo speakers",
+        "sensors": "Face ID, Accelerometer, Gyroscope",
+        "weight": "221g",
+        "dimensions": "159.9 x 76.7 x 8.3 mm",
+        "color": "Black",
+        "releaseYear": "2025",
+        "warranty": "1 year"
+      },
+      "date": "2025-01-01",
+      "slug": "iphone-17-pro-max",
+      "returnPolicy": "14 days return"
+    },
+    {
+      "id": "2",
+      "sellerId": 1,
+      "name": "Samsung Galaxy S23 Ultra",
+      "description": "This is a Smart Phone Latest Verision.",
+      "price": 4900,
+      "salePrice": 0,
+      "stock": 11,
+      "category": "Mobile Phones",
+      "image": "/imgs/25.jpg",
+      "type": "Best Sellers",
+      "brand": "Samsung",
+      "sku": "SGS23U-256GB",
+      "rating": 5,
+      "reviewCount": 0,
+      "images": [
+        "/imgs/25.jpg"
+      ],
+      "specs": {
+        "screen": "6.8 inches",
+        "resolution": "3088 x 1440",
+        "storage": "256GB",
+        "ram": "12GB",
+        "processor": "Snapdragon 8 Gen 2",
+        "gpu": "Adreno GPU",
+        "battery": "5000mAh",
+        "charging": "USB-C Fast Charging",
+        "os": "Android",
+        "connectivity": "5G, Wi-Fi, Bluetooth",
+        "ports": "USB-C",
+        "cameraFront": "12MP",
+        "cameraBack": "200MP",
+        "audio": "Stereo speakers",
+        "sensors": "Fingerprint, Accelerometer, Gyroscope",
+        "weight": "234g",
+        "dimensions": "163.4 x 78.1 x 8.9 mm",
+        "color": "Phantom Black",
+        "releaseYear": "2023",
+        "warranty": "1 year"
+      },
+      "date": "2025-01-01",
+      "slug": "samsung-galaxy-s23-ultra",
+      "returnPolicy": "14 days return"
+    },
+    {
+      "id": "3",
+      "sellerId": 2,
+      "name": "Smart Bed For Memory Foam",
+      "description": "This is a Bed For Adult Men .",
+      "price": 2700,
+      "salePrice": 2500,
+      "stock": 0,
+      "category": "Furnture",
+      "image": "/imgs/bed.jpg",
+      "type": "Special Offers",
+      "brand": "Ikea",
+      "sku": "IKEA-BED-001",
+      "rating": 5,
+      "reviewCount": 0,
+      "images": [
+        "/imgs/bed.jpg"
+      ],
+      "specs": {
+        "screen": "N/A",
+        "resolution": "N/A",
+        "storage": "N/A",
+        "ram": "N/A",
+        "processor": "N/A",
+        "gpu": "N/A",
+        "battery": "N/A",
+        "charging": "N/A",
+        "os": "N/A",
+        "connectivity": "N/A",
+        "ports": "N/A",
+        "cameraFront": "N/A",
+        "cameraBack": "N/A",
+        "audio": "N/A",
+        "sensors": "N/A",
+        "weight": "35kg",
+        "dimensions": "200 x 160 x 30 cm",
+        "color": "White",
+        "releaseYear": "2025",
+        "warranty": "5 years"
+      },
+      "date": "2025-01-01",
+      "slug": "smart-bed-memory-foam",
+      "returnPolicy": "7 days return"
+    },
+    {
+      "id": "4",
+      "sellerId": 2,
+      "name": "Apple iPad A16 Tablet Wi-Fi 2025",
+      "description": "THis Is Aya Azzam",
+      "price": 1500,
+      "salePrice": 1100,
+      "stock": 1,
+      "category": "Tablets",
+      "image": "https://www.jarir.com/cdn-cgi/image/fit=contain,width=380,height=380,quality=100,metadata=none/https://ak-asset.jarir.com/akeneo-prod/asset/b/e/0/e/be0ee618cfb2fbf4cd4ffbeebf686393d5d2140b_654165.jpg",
+      "type": "New Arrivals",
+      "brand": "Apple",
+      "sku": "IPAD-A16-WIFI-2025",
+      "rating": 5,
+      "reviewCount": 0,
+      "images": [
+        "https://www.jarir.com/cdn-cgi/image/fit=contain,width=380,height=380,quality=100,metadata=none/https://ak-asset.jarir.com/akeneo-prod/asset/b/e/0/e/be0ee618cfb2fbf4cd4ffbeebf686393d5d2140b_654165.jpg"
+      ],
+      "specs": {
+        "screen": "11 inches",
+        "resolution": "2388 x 1668",
+        "storage": "128GB",
+        "ram": "8GB",
+        "processor": "Apple A16",
+        "gpu": "Apple GPU",
+        "battery": "7600mAh",
+        "charging": "USB-C 20W",
+        "os": "iPadOS",
+        "connectivity": "Wi-Fi, Bluetooth",
+        "ports": "USB-C",
+        "cameraFront": "12MP",
+        "cameraBack": "12MP",
+        "audio": "Stereo speakers",
+        "sensors": "Face ID, Accelerometer, Gyroscope",
+        "weight": "460g",
+        "dimensions": "247.6 x 178.5 x 7.0 mm",
+        "color": "Space Gray",
+        "releaseYear": "2025",
+        "warranty": "1 year"
+      },
+      "date": "2025-01-01",
+      "slug": "apple-ipad-a16-wifi-2025",
+      "returnPolicy": "14 days return"
+    },
+    {
+      "id": "5",
+      "sellerId": 2,
+      "name": "Small Wardrobe For Kids Bedroom",
+      "description": "aaaa",
+      "price": 125,
+      "salePrice": 0,
+      "stock": 2,
+      "category": "Furnture",
+      "image": "/imgs/fur.jpg",
+      "type": "New Arrivals",
+      "brand": "Ikea",
+      "sku": "IK-WARD-002",
+      "rating": 5,
+      "reviewCount": 0,
+      "images": [
+        "/imgs/fur.jpg"
+      ],
+      "specs": {
+        "screen": "N/A",
+        "resolution": "N/A",
+        "storage": "N/A",
+        "ram": "N/A",
+        "processor": "N/A",
+        "gpu": "N/A",
+        "battery": "N/A",
+        "charging": "N/A",
+        "os": "N/A",
+        "connectivity": "N/A",
+        "ports": "N/A",
+        "cameraFront": "N/A",
+        "cameraBack": "N/A",
+        "audio": "N/A",
+        "sensors": "N/A",
+        "weight": "20kg",
+        "dimensions": "120 x 80 x 40 cm",
+        "color": "White",
+        "releaseYear": "2025",
+        "warranty": "2 years"
+      },
+      "date": "2025-01-01",
+      "slug": "small-wardrobe-kids-bedroom",
+      "returnPolicy": "7 days return"
+    },
+    {
+      "id": "6",
+      "sellerId": 1,
+      "name": "Microsoft Surface Laptop",
+      "description": "AI with CoPilot+, 13.8 ,Qualcomm Snapdragon, 16 GB RAM, 512 GB SSD, Windows 11 Home, Qualcomm Adreno",
+      "price": "6299",
+      "stock": 7,
+      "category": "Laptops",
+      "image": "https://www.jarir.com/cdn-cgi/image/fit=contain,width=380,height=380,quality=100,metadata=none/https://ak-asset.jarir.com/akeneo-prod/asset/c/2/3/6/c236c0994b0e7770f01971a067822bc886b27661_639201.jpg",
+      "salePrice": "4499",
+      "type": "Special Offers",
+      "brand": "Windows",
+      "sku": "Sku-6392012026@steng",
+      "rating": 3.5,
+      "reviewCount": 12,
+      "images": [
+        "https://www.jarir.com/cdn-cgi/image/fit=contain,width=380,height=380,quality=100,metadata=none/https://ak-asset.jarir.com/akeneo-prod/asset/5/5/f/4/55f4748571d94b68b487b1d9a48570b1dbfeaea8_639201_1.jpg",
+        "https://www.jarir.com/cdn-cgi/image/fit=contain,width=380,height=380,quality=100,metadata=none/https://ak-asset.jarir.com/akeneo-prod/asset/4/2/a/1/42a1ccf49854387193201698c9ba28dd8ed1ce13_639201_2.jpg"
+      ],
+      "specs": {
+        "screen": "\"15.6-inch IPS LCD\",",
+        "resolution": "\"1920 × 1080 (Full HD)\",",
+        "storage": "\"512GB NVMe SSD\",",
+        "ram": "\"16GB DDR4\",",
+        "processor": "\"Intel Core i7-1165G7 (11th Gen)\",",
+        "gpu": "\"Intel Iris Xe Graphics\",",
+        "battery": "\"56Wh Li-ion\",",
+        "charging": "\"65W USB-C Fast Charging\",",
+        "os": "\"Windows 11 Home\",",
+        "connectivity": "\"Wi-Fi 6, Bluetooth 5.2\",",
+        "ports": "\"2× USB-A 3.2, 1× USB-C, 1× HDMI, 1× 3.5mm audio jack\",",
+        "cameraFront": "\"720p HD Webcam\",",
+        "cameraBack": "\"Not Available\",",
+        "audio": "\"Stereo speakers with Dolby Audio\",",
+        "sensors": "\"Fingerprint Reader, Ambient Light Sensor\",",
+        "weight": "\"1.8 kg\",",
+        "dimensions": "\"357 × 234 × 18 mm\",",
+        "color": "\"Silver\",",
+        "releaseYear": "\"2024\",",
+        "warranty": "\"1 Year Manufacturer Warranty\""
+      },
+      "date": "2026-02-01",
+      "slug": "windows-Laptop-s-512-ZGP00050",
+      "returnPolicy": "14 days return"
+    }
+  ],
+  "orders": [
+    {
+      "id": "5bb6",
+      "orderId": "#1103863",
+      "userId": 6181,
+      "sellerId": 1,
+      "customer": "Mohammed Ebrahim",
+      "items": [
+        {
+          "id": "b1ec",
+          "productName": "Iphone 17 Pro Max",
+          "quantity": 1,
+          "unitPrice": 4400,
+          "image": "/imgs/17.jpg"
+        }
+      ],
+      "totalPrice": 4400,
+      "status": "Shipped",
+      "userTokens": "#U888884",
+      "createdAt": "2026-02-02T13:15:10.995Z",
+      "addressId": "fead",
+      "address": {
+        "id": "fead",
+        "label": "",
+        "isDefault": true,
+        "fullName": "Mohammed Ebrahim",
+        "phone": "01021891089",
+        "line1": "123 Main St",
+        "line2": "Apt 4B",
+        "city": "Riyadh",
+        "region": "Riyadh Province",
+        "country": "Saudi Arabia",
+        "postalCode": "11564",
+        "raw": {
+          "id": "fead",
+          "userTokens": "#U888884",
+          "fullName": "Mohammed Ebrahim",
+          "phone": "01021891089",
+          "addressLine1": "123 Main St",
+          "addressLine2": "Apt 4B",
+          "city": "Riyadh",
+          "state": "Riyadh Province",
+          "postalCode": "11564",
+          "country": "Saudi Arabia",
+          "isDefault": true
+        }
+      },
+      "shipCost": 0,
+      "discount": 0,
+      "paymentMethod": "cod"
+    }
+  ],
+  "discounts": [
+    {
+      "id": "2",
+      "sellerId": 2,
+      "code": "HOME10",
+      "description": "10% off on home & living products",
+      "discountPercentage": 10,
+      "validFrom": "2026-01-01",
+      "validTo": "2026-02-28",
+      "usageLimit": 50,
+      "timesUsed": 10
+    },
+    {
+      "id": "1764017133502",
+      "code": "Welcome20",
+      "description": "Discount 25%",
+      "discountPercentage": 25,
+      "validFrom": "2026-01-01",
+      "validTo": "2026-02-28",
+      "usageLimit": 1,
+      "sellerId": 1,
+      "timesUsed": 0
+    },
+    {
+      "id": "1764017286784",
+      "code": "Eid",
+      "description": "Happy Eid Discount",
+      "discountPercentage": 15,
+      "validFrom": "2026-01-01",
+      "validTo": "2026-02-28",
+      "usageLimit": 1,
+      "sellerId": 1,
+      "timesUsed": 0
+    }
+  ],
+  "mainHeader": [
+    {
+      "mainTitle": "Tradevia",
+      "navigate": [
+        {
+          "name": "Home",
+          "link": "/"
+        },
+        {
+          "name": "Shop",
+          "link": "/Shop"
+        },
+        {
+          "name": "About Us",
+          "link": "/About"
+        },
+        {
+          "name": "Blog",
+          "link": "/Blog"
+        },
+        {
+          "name": "Sellers",
+          "link": "/Sellers"
+        },
+        {
+          "name": "Contact Us",
+          "link": "/Contact"
+        }
+      ],
+      "id": "4570"
+    }
+  ],
+  "otps": [
+    {
+      "Otp": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "id": "1077"
+    }
+  ],
+  "customers": [
+    {
+      "id": "6181",
+      "name": "Mohammed Ebrahim",
+      "email": "mohammed.ebrahim9921@gmail.com",
+      "phone": "01021891089",
+      "userTokens": "#U888884",
+      "loginStatus": true,
+      "city": "Riyadh"
+    },
+    {
+      "id": "205e",
+      "name": "Aya Azzam",
+      "email": "Aya@gmail.com",
+      "phone": "01025066791",
+      "userTokens": "#W341318",
+      "loginStatus": true,
+      "city": "Mansoura"
+    }
+  ],
+  "loggedCustomers": [
+    {
+      "id": "6181",
+      "userTokens": "#U888884"
+    }
+  ],
+  "customerAddresses": [
+    {
+      "id": "fead",
+      "userTokens": "#U888884",
+      "fullName": "Mohammed Ebrahim",
+      "phone": "01021891089",
+      "addressLine1": "123 Main St",
+      "addressLine2": "Apt 4B",
+      "city": "Riyadh",
+      "state": "Riyadh Province",
+      "postalCode": "11564",
+      "country": "Saudi Arabia",
+      "isDefault": true
+    },
+    {
+      "id": "deaf",
+      "userTokens": "#W341318",
+      "fullName": "Aya Elsayed",
+      "phone": "01025066791",
+      "addressLine1": "456 Talkha St",
+      "addressLine2": "Suite 5A",
+      "city": "Mansoura",
+      "state": "Dakahlia",
+      "postalCode": "35511",
+      "country": "Egypt",
+      "isDefault": true
+    },
+    {
+      "id": "faeb",
+      "fullName": "Aya Azzam",
+      "phone": "01025066791",
+      "addressLine1": "Mansoura",
+      "addressLine2": "Mansoura",
+      "city": "Talkha",
+      "state": "talkha",
+      "postalCode": "12475",
+      "country": "Egypt",
+      "userTokens": "#W341318",
+      "isDefault": false
+    }
+  ],
+  "WalletBalance": [
+    {
+      "userTokens": "#U888884",
+      "balance": 1500.75,
+      "id": "6005"
+    },
+    {
+      "userTokens": "#W341318",
+      "balance": 320.5,
+      "id": "ce9e"
+    }
+  ],
+  "mainSlides": [
+    {
+      "src": "https://images.pexels.com/photos/1778412/pexels-photo-1778412.jpeg",
+      "title": "Mountain Escape",
+      "subtitle": "Nature & Adventure",
+      "description": "Experience peace, fresh air, and breathtaking views.",
+      "button": "Explore Now",
+      "id": "5234"
+    },
+    {
+      "src": "https://images.pexels.com/photos/3944405/pexels-photo-3944405.jpeg",
+      "title": "Forest Walk",
+      "subtitle": "Calm & Relax",
+      "description": "Walk through green paths and reconnect with nature.",
+      "button": "Discover",
+      "id": "50f3"
+    },
+    {
+      "src": "https://images.pexels.com/photos/3769747/pexels-photo-3769747.jpeg",
+      "title": "Golden Sunset",
+      "subtitle": "Moments That Matter",
+      "description": "Enjoy warm colors and peaceful evening skies.",
+      "button": "View Gallery",
+      "id": "cb27"
+    },
+    {
+      "src": "https://images.pexels.com/photos/838413/pexels-photo-838413.jpeg",
+      "title": "City Lights",
+      "subtitle": "Urban Lifestyle",
+      "description": "Discover vibrant city views and modern architecture.",
+      "button": "Learn More",
+      "id": "5687"
+    }
+  ],
+  "categories": [
+    {
+      "title": "Furniture",
+      "image": "https://images.pexels.com/photos/1350789/pexels-photo-1350789.jpeg",
+      "link": "/category/furniture",
+      "id": "e476"
+    },
+    {
+      "title": "Tablets",
+      "image": "https://images.pexels.com/photos/1334597/pexels-photo-1334597.jpeg",
+      "link": "/category/tablets",
+      "id": "e477"
+    },
+    {
+      "title": "Watches",
+      "image": "https://images.pexels.com/photos/190819/pexels-photo-190819.jpeg",
+      "link": "/category/watches",
+      "id": "e478"
+    },
+    {
+      "title": "Glasses",
+      "image": "https://images.pexels.com/photos/46710/pexels-photo-46710.jpeg",
+      "link": "/category/glasses",
+      "id": "5c88"
+    },
+    {
+      "title": "Sunglasses",
+      "image": "https://images.pexels.com/photos/701877/pexels-photo-701877.jpeg",
+      "link": "/category/sunglasses",
+      "id": "bbc3"
+    },
+    {
+      "title": "Accessories",
+      "image": "https://images.pexels.com/photos/4041392/pexels-photo-4041392.jpeg",
+      "link": "/category/accessories",
+      "id": "d94b"
+    },
+    {
+      "title": "Men",
+      "image": "https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg",
+      "link": "/category/men",
+      "id": "5afc"
+    },
+    {
+      "title": "Women",
+      "image": "https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg",
+      "link": "/category/women",
+      "id": "e4e6"
+    },
+    {
+      "title": "Luxury",
+      "image": "https://images.pexels.com/photos/298863/pexels-photo-298863.jpeg",
+      "link": "/category/luxury",
+      "id": "b104"
+    },
+    {
+      "title": "Sport",
+      "image": "https://images.pexels.com/photos/3756042/pexels-photo-3756042.jpeg",
+      "link": "/category/sport",
+      "id": "e96b"
+    },
+    {
+      "title": "Laptops",
+      "image": "https://images.pexels.com/photos/18105/pexels-photo.jpg",
+      "link": "/category/laptops",
+      "id": "ec6e"
+    },
+    {
+      "title": "Mobile Phones",
+      "image": "https://images.pexels.com/photos/607812/pexels-photo-607812.jpeg",
+      "link": "/category/mobile-phones",
+      "id": "e84a"
+    }
+  ],
+  "reasonsToChooseUs": [
+    {
+      "icon": "security",
+      "title": "Secure Payments",
+      "desc": "Enterprise-grade encryption and trusted payment gateways.",
+      "id": "9e26"
+    },
+    {
+      "icon": "shipping",
+      "title": "Fast Delivery",
+      "desc": "Optimized logistics ensuring fast and reliable shipping.",
+      "id": "a303"
+    },
+    {
+      "icon": "quality",
+      "title": "Premium Quality",
+      "desc": "Strict quality control with only authentic products.",
+      "id": "7be1"
+    },
+    {
+      "icon": "support",
+      "title": "24/7 Support",
+      "desc": "Dedicated support team available around the clock.",
+      "id": "b5be"
+    }
+  ],
+  "CtaBannar": [
+    {
+      "title": "Elevate Your Style with Our New Collection",
+      "subtitle": "Discover premium watches and accessories crafted to perfection. Limited stock available—don’t miss out!",
+      "buttonText": "Shop Now",
+      "imageUrl": "https://images.pexels.com/photos/190819/pexels-photo-190819.jpeg",
+      "id": "6122"
+    }
+  ],
+  "Testimonials": [
+    {
+      "customerSay": "What Our Sellers Say",
+      "testimonialsOpinion": [
+        {
+          "id": 1,
+          "name": "Sarah Johnson",
+          "role": "CEO, TechCorp",
+          "message": "Amazing service! The team delivered exactly what I needed, on time and with great quality.",
+          "avatar": "https://randomuser.me/api/portraits/women/44.jpg"
+        },
+        {
+          "id": 2,
+          "name": "Michael Smith",
+          "role": "Product Manager, InnovateX",
+          "message": "Highly professional and attentive. The results exceeded our expectations.",
+          "avatar": "https://randomuser.me/api/portraits/men/46.jpg"
+        },
+        {
+          "id": 3,
+          "name": "Emma Williams",
+          "role": "Designer, Creatify",
+          "message": "Their work speaks for itself. I recommend them to anyone looking for top-notch quality.",
+          "avatar": "https://randomuser.me/api/portraits/women/68.jpg"
+        }
+      ],
+      "next": "Next",
+      "previous": "Prev",
+      "ourAchivements": "Our Achievements",
+      "beSeller": "Be a Seller With Us",
+      "achievements": [
+        "✅ 500+ Satisfied Clients",
+        "✅ 1200+ International Products",
+        "✅ 15 Awards Won",
+        "✅ 10+ Years of Experience"
+      ],
+      "id": "53e1"
+    }
+  ],
+  "newsLetter": [
+    {
+      "title": "Subscribe to our Newsletter",
+      "subtitle": "Get exclusive offers, latest updates, and special discounts delivered straight to your inbox.",
+      "placeholder": "Enter your email address",
+      "Subscribe": "Subscribe",
+      "respect": "We respect your privacy. Unsubscribe anytime.",
+      "imageUrl": "https://images.pexels.com/photos/374074/pexels-photo-374074.jpeg",
+      "id": "566c"
+    }
+  ],
+  "Footer": [
+    {
+      "footerBadge": "Tradevia",
+      "store": "Store",
+      "footerDescription": "Premium e-commerce experience with secure payments and trusted service. ",
+      "facebook": "https://www.facebook.com",
+      "instagram": "https://www.instagram.com",
+      "twitter": "https://www.x.com",
+      "linkedIn": "https://www.linkedin.com",
+      "discover": "Discover Our Store",
+      "shop": "Shop",
+      "shopLinks": [
+        {
+          "name": "All Products",
+          "link": "/Shop"
+        },
+        {
+          "name": "Become a Seller",
+          "link": "/SellerSignUp"
+        },
+        {
+          "name": "Login As Seller",
+          "link": "/SellerLogin"
+        },
+        {
+          "name": "Order Now",
+          "link": "/Cart"
+        }
+      ],
+      "support": " Support",
+      "supportLinks": [
+        {
+          "name": "FAQ",
+          "link": "/faq"
+        },
+        {
+          "name": "Shipping & Delivery",
+          "link": "/shipping"
+        },
+        {
+          "name": "Returns & Exchanges",
+          "link": "/returns"
+        },
+        {
+          "name": "Contact Support",
+          "link": "/Contact"
+        },
+        {
+          "name": "Privacy Policy",
+          "link": "/privacy-policy"
+        }
+      ],
+      "contactUs": "Contact Us",
+      "address": "Riyadh, Saudi Arabia",
+      "phone": "+966 500 000 000",
+      "email": "support@Tradevia.com",
+      "bootomText": "Tradevia. All rights reserved.",
+      "bottomLinks": [
+        {
+          "name": "Terms of Service",
+          "link": "/Terms"
+        },
+        {
+          "name": "Privacy Policy",
+          "link": "/privacy-policy"
+        },
+        {
+          "name": "Cookie Policy",
+          "link": "/Cookies"
+        },
+        {
+          "name": "Help Center",
+          "link": "/HelpCenter"
+        }
+      ],
+      "id": "fd41"
+    }
+  ],
+  "totalPrice": [
+    {
+      "id": "4670",
+      "userTokens": "#W341318",
+      "totalPrice": 0
+    },
+    {
+      "id": "080d",
+      "userTokens": "#U888884",
+      "totalPrice": 0
+    }
+  ],
+  "wishList": [
+    {
+      "id": "1",
+      "sellerId": 1,
+      "name": "Iphone 17 Pro Max",
+      "description": "This is a Smart Phone Latest Verision.",
+      "price": 5663.99,
+      "salePrice": 4400,
+      "stock": 15,
+      "category": "Electronics",
+      "image": "/imgs/17.jpg",
+      "userTokens": "#U888884",
+      "type": "New Arrivals",
+      "brand": "Apple"
+    },
+    {
+      "id": "5",
+      "sellerId": 2,
+      "name": "Small Wardrobe For Kids Bedroom",
+      "description": "aaaa",
+      "price": 125,
+      "salePrice": 0,
+      "stock": 2,
+      "category": "Furniture",
+      "image": "/imgs/fur.jpg",
+      "userTokens": "#U888884",
+      "type": "New Arrivals",
+      "brand": "Ikea"
+    },
+    {
+      "id": "3",
+      "sellerId": 2,
+      "name": "Smart Bed For Memory Foam",
+      "description": "This is a Bed For Adult Men .",
+      "price": 2700,
+      "salePrice": 2500,
+      "stock": 0,
+      "category": "Home & Living",
+      "image": "/imgs/bed.jpg",
+      "userTokens": "#U888884",
+      "type": "Special Offers",
+      "brand": "Ikea"
+    },
+    {
+      "id": "2",
+      "sellerId": 1,
+      "name": "Samsung Galaxy S23 Ultra",
+      "description": "This is a Smart Phone Latest Verision.",
+      "price": 4900,
+      "salePrice": 0,
+      "stock": 11,
+      "category": "Electronics",
+      "image": "/imgs/25.jpg",
+      "userTokens": "#W341318"
+    }
+  ],
+  "cart": [],
+  "shipping": [
+    {
+      "free": "Free Shipping",
+      "high": 100,
+      "medium": 75,
+      "low": 50,
+      "less": 25,
+      "id": "c62c"
+    }
+  ],
+  "blogPosts": [
+    {
+      "id": "1",
+      "title": "Top 10 Gadgets to Buy in 2025",
+      "date": "September 15, 2025",
+      "author": "Mohammed Ebrahim",
+      "job": "Tech Enthusiast & Front-End Developer",
+      "image": "/imgs/blog1.jpg",
+      "excerpt": "Discover the must-have tech gadgets of the year that will make your life easier and more fun.",
+      "tags": [
+        "Gadgets",
+        "Technology",
+        "2025"
+      ],
+      "content": "<p>The tech world is evolving rapidly, and 2025 promises some incredible gadgets. From smartwatches to AI-powered home devices, these are the top picks.</p>"
+    },
+    {
+      "id": "2",
+      "title": "How to Choose the Right Laptop",
+      "date": "September 10, 2025",
+      "author": "Sara Ahmed",
+      "job": "Creative Coder & Front-End Developer",
+      "image": "/imgs/blog2.jpg",
+      "excerpt": "Picking the right laptop can be confusing. Here are 5 things you should always check before buying.",
+      "tags": [
+        "Laptops",
+        "Guides",
+        "Technology"
+      ],
+      "content": "<p>Choosing a laptop depends on your needs. Processor, RAM, storage, and display quality matter the most.</p>"
+    },
+    {
+      "id": "3",
+      "title": "Seller Success Story: John's Electronics",
+      "date": "September 5, 2025",
+      "author": "Ali Hassan",
+      "job": "UI/UX Enthusiast & Web Developer",
+      "image": "/imgs/blog3.jpg",
+      "excerpt": "Meet John, one of our top sellers who grew his business using our marketplace.",
+      "tags": [
+        "Success Story",
+        "Sellers",
+        "Marketplace"
+      ],
+      "content": "<p>John started with a few products and scaled his business using smart pricing and great customer service.</p>"
+    },
+    {
+      "id": "4",
+      "title": "Top Fashion Trends in 2025",
+      "date": "September 1, 2025",
+      "author": "Layla Khalid",
+      "job": "Design Lover & React Developer",
+      "image": "/imgs/blog4.jpg",
+      "excerpt": "Fashion trends are evolving fast. Discover the must-have items for your wardrobe this year.",
+      "tags": [
+        "Fashion",
+        "Trends",
+        "2025"
+      ],
+      "content": "<p>2025 fashion focuses on sustainability, bold colors, and oversized designs.</p>"
+    },
+    {
+      "id": "5",
+      "title": "The Rise of Electric Vehicles",
+      "date": "August 28, 2025",
+      "author": "Omar Farouk",
+      "job": "Problem Solver & JavaScript Developer",
+      "image": "/imgs/blog5.jpg",
+      "excerpt": "Electric vehicles are transforming the automotive industry. Here's what to know before making the switch.",
+      "tags": [
+        "Electric Vehicles",
+        "Automotive",
+        "Technology"
+      ],
+      "content": "<p>EVs are becoming mainstream thanks to improved batteries and charging infrastructure.</p>"
+    },
+    {
+      "id": "6",
+      "title": "5 Tips for Effective Remote Work",
+      "date": "August 22, 2025",
+      "author": "Nora Al-Mansouri",
+      "job": "Tech Explorer & Next.js Developer",
+      "image": "/imgs/blog6.jpg",
+      "excerpt": "Remote work is here to stay. Boost your productivity with these simple tips.",
+      "tags": [
+        "Productivity",
+        "Remote Work",
+        "Guides"
+      ],
+      "content": "<p>Create a dedicated workspace, manage your time, and take regular breaks to stay productive.</p>"
+    },
+    {
+      "id": "7",
+      "title": "Healthy Eating on a Busy Schedule",
+      "date": "August 18, 2025",
+      "author": "Fatima Noor",
+      "job": "Innovation Enthusiast & Software Engineer",
+      "image": "/imgs/blog7.jpg",
+      "excerpt": "Eating healthy doesn't have to be time-consuming. Learn quick tips for a balanced diet.",
+      "tags": [
+        "Health",
+        "Nutrition",
+        "Lifestyle"
+      ],
+      "content": "<p>Meal prepping and smart food choices can help maintain a healthy lifestyle.</p>"
+    },
+    {
+      "id": "8",
+      "title": "Top 5 Smartphone Cameras in 2025",
+      "date": "August 12, 2025",
+      "author": "Yusuf Ali",
+      "job": "Web Aesthetics Lover & Front-End Engineer",
+      "image": "/imgs/blog8.jpg",
+      "excerpt": "Smartphone photography is better than ever. Discover which phones take the best shots.",
+      "tags": [
+        "Smartphones",
+        "Photography",
+        "Technology"
+      ],
+      "content": "<p>Modern smartphones now rival professional cameras with advanced sensors and AI features.</p>"
+    },
+    {
+      "id": "9",
+      "title": "Boost Your E-commerce Sales",
+      "date": "August 5, 2025",
+      "author": "Leila Hassan",
+      "job": "Digital Creator & Modern Web Developer",
+      "image": "/imgs/blog9.png",
+      "excerpt": "Grow your online store with proven e-commerce strategies.",
+      "tags": [
+        "E-commerce",
+        "Business",
+        "Marketing"
+      ],
+      "content": "<p>Optimize your listings, improve UX, and leverage social media to increase sales.</p>"
+    },
+    {
+      "id": "10",
+      "title": "Sustainable Living: Small Changes, Big Impact",
+      "date": "July 30, 2025",
+      "author": "Hanan Yusuf",
+      "job": "Coding Enthusiast & Full-Stack Developer",
+      "image": "/imgs/blog10.jpg",
+      "excerpt": "Living sustainably is easier than you think. Start with these small changes.",
+      "tags": [
+        "Sustainability",
+        "Lifestyle",
+        "Environment"
+      ],
+      "content": "<p>Simple actions like reducing waste and saving energy help protect the environment.</p>"
+    }
+  ],
+  "About": [
+    {
+      "image": "/imgs/about.jpg",
+      "companyOverview": "Company Overview",
+      "paraOne": "We are a professionally managed organization dedicated to delivering sustainable, high-impact solutions that support ong-term business growth. Our operations are driven by robust governance frameworks, strategic planning, and a commitment to operational excellence.",
+      "paraTwo": "Through a disciplined execution model and a client-centric approach, we design and deliver services that address complex business challenges while maintaining the highest standards of quality, security, and performance. Our team of experienced professionals leverages industry best practices and innovative technologies to create value for our clients, ensuring their success in a rapidly evolving market landscape.",
+      "ourObjective": "Our objective is to build trusted, long-term partnerships by consistently delivering reliable, scalable, and future-ready solutions.",
+      "aboutItems": [
+        {
+          "title": "Our Mission",
+          "description": "To empower organizations through innovative, secure, and efficient solutions that drive measurable business outcomes."
+        },
+        {
+          "title": "Our Vision",
+          "description": "To be a trusted industry leader recognized for excellence, integrity, and long-term value creation."
+        },
+        {
+          "title": "Core Values",
+          "description": "Accountability, transparency, innovation, and continuous improvement guide every aspect of our work."
+        }
+      ],
+      "aboutValues": [
+        {
+          "value": "+10",
+          "label": "Years of Industry Experience"
+        },
+        {
+          "value": "+250",
+          "label": "Successfully Delivered Projects"
+        },
+        {
+          "value": "98%",
+          "label": "Client Satisfaction Rate"
+        }
+      ],
+      "paraThree": "We place a strong emphasis on accountability, transparency, and risk management. These principles are embedded across all levels of our organization and shape how we engage with our clients, partners, and stakeholders.",
+      "paraFour": "As we move forward, we remain focused on innovation, operational resilience, and measurable outcomes, ensuring that our clients are well-positioned to succeed in an increasingly competitive and evolving global environment.",
+      "id": "1dd1"
+    }
+  ],
+  "Contact": [
+    {
+      "customerSupport": "Customer Support",
+      "subTitle": "Contact our professional support team through any of the channels below.",
+      "email": "support@example.com",
+      "phone": "+966 55 000 0000",
+      "workingHours": "Sunday – Thursday, 9:00 AM – 6:00 PM",
+      "address": "Riyadh, Saudi Arabia",
+      "emailName": "E-Mail",
+      "phoneName": "Phone",
+      "workingHoursName": "Working Hours",
+      "addressName": "Address",
+      "id": "1b87"
+    }
+  ],
+  "messageFromContact": [
+    {
+      "id": "e44b",
+      "fullName": "Mohammed Ebrahim",
+      "email": "mohammed.ebrahim9921@gmail.com",
+      "subject": "Cancel Order",
+      "phone": "+20 10 21891089",
+      "message": "I need to cancel the order"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What is your return policy?",
+      "answer": "You can return any item within 30 days of purchase if it’s in its original condition.",
+      "icon": "AutorenewIcon",
+      "color": "#FF6B6B",
+      "category": "Returns",
+      "id": "00ee"
+    },
+    {
+      "question": "Do you offer international shipping?",
+      "answer": "Yes, we ship to most countries worldwide. Shipping fees may apply.",
+      "icon": "LocalShippingIcon",
+      "color": "#4D96FF",
+      "category": "Shipping",
+      "id": "083d"
+    },
+    {
+      "question": "How can I track my order?",
+      "answer": "Once your order is shipped, you will receive an email with a tracking number.",
+      "icon": "LocalPostOfficeIcon",
+      "color": "#4CAF50",
+      "category": "Shipping",
+      "id": "1ce9"
+    },
+    {
+      "question": "Can I change my order after placing it?",
+      "answer": "Yes, you can modify your order within 24 hours by contacting our support team.",
+      "icon": " ",
+      "color": "#FFA500",
+      "category": "Orders",
+      "id": "39ea"
+    },
+    {
+      "question": "Do you offer discounts for bulk orders?",
+      "answer": "Yes, we provide special pricing for bulk orders. Please contact our sales team.",
+      "icon": "AttachMoneyIcon",
+      "color": "#FFC107",
+      "category": "Discounts",
+      "id": "8726"
+    }
+  ],
+  "shippingPage": [
+    {
+      "title": "Shipping Methods",
+      "details": "We offer standard and express shipping methods. Standard shipping usually takes 5-7 business days, while express shipping takes 2-3 business days. Delivery times may vary depending on location.",
+      "icon": "LocalShippingIcon",
+      "color": "#4D96FF",
+      "category": "method",
+      "id": "08b7"
+    },
+    {
+      "title": "Shipping Charges",
+      "details": "Shipping charges are calculated based on the weight, size, and destination of your order. Free shipping is available on orders above a certain amount.",
+      "icon": "AttachMoneyIcon",
+      "color": "#FFC107",
+      "category": "charge",
+      "id": "6929"
+    },
+    {
+      "title": "International Shipping",
+      "details": "We ship internationally to most countries. Customs fees, duties, or taxes may apply depending on the destination country.Customers are responsible for paying these charges.",
+      "icon": "PublicIcon",
+      "color": "#4CAF50",
+      "category": "international",
+      "id": "45e9"
+    },
+    {
+      "title": "Order Processing Time",
+      "details": "All orders are processed within 1-2 business days. Orders placed on weekends or holidays will be processed the next business day.",
+      "icon": "ScheduleIcon",
+      "color": "#FFA500",
+      "category": "time",
+      "id": "70e7"
+    },
+    {
+      "title": "Delivery Issues",
+      "details": "If your order is delayed or lost during shipping, please contact our support team immediately. We will track your shipment and provide assistance.",
+      "icon": "ErrorOutlineIcon",
+      "color": "#FF6B6B",
+      "category": "issue",
+      "id": "15b0"
+    }
+  ],
+  "returnPolicies": [
+    {
+      "title": "Return Eligibility",
+      "details": "Items may be returned within fourteen (14) calendar days from the delivery date confirmed by the courier.Returned products must be completely unused, unworn, unwashed, and free from any stains, odors, or signs of wear.All original tags, labels, stickers, manuals, and accessories must remain intact and attached.Items must be returned in their original packaging, including boxes, protective covers, and inner wrapping.Products that have been damaged due to misuse, negligence, or improper handling will not be accepted. alteration, customization, resizing, or repair voids return eligibility immediately.Returns submitted after the allowed return window will be automatically rejected.Products returned without original packaging may be refused.We reserve the right to inspect all returned items thoroughly.Items failing inspection may be sent back to the customer at their expense.Eligibility approval is determined solely by our quality control team.Customers are responsible for ensuring safe packaging during return shipping.We recommend keeping proof of delivery and invoice documentation.No exceptions are granted outside these eligibility conditions.Submitting a return request confirms acceptance of this policy.",
+      "icon": "ReplayIcon",
+      "id": "8ac8"
+    },
+    {
+      "title": "Exchange Policy",
+      "details": "Exchanges are permitted only for size or color variations of the same product.All exchange requests must comply with the return eligibility requirements.Exchanges are subject to inventory availability at the time of request approval.If the requested replacement is unavailable, customers may choose a refund or store credit.Only one exchange request is allowed per order.Exchanges for different products or models are not permitted.Any price difference between exchanged items will be charged or refunded accordingly.Exchanged items are shipped only after the original item is received and approved.Promotional pricing applied to the original purchase may not apply to exchanged items.Seasonal or limited-edition items may be excluded from exchange.Shipping fees may apply depending on the exchange reason.Exchange processing times vary based on stock availability.Exchanges are handled using standard delivery methods.We reserve the right to refuse exchanges that do not meet conditions.This policy ensures fairness and inventory control.",
+      "icon": "SwapHorizIcon",
+      "id": "b6ea"
+    },
+    {
+      "title": "How to Request a Return",
+      "details": "To initiate a return or exchange, customers must contact our customer support team.Requests may be submitted via email WhatsApp during official working hours.Customers must provide their order number and registered contact details.Please include the product name, quantity, and reason for return.Clear photos or videos may be requested for verification purposes.Our team will review the request and confirm eligibility.Approved requests will receive return instructions and shipping guidance.Unauthorized returns sent without prior approval will not be accepted.Customers must follow the provided instructions precisely.Items must be securely packaged to prevent damage during transit.Tracking details should be retained until completion.Failure to follow instructions may result in rejection.Response times may vary during peak periods.Support staff will assist throughout the process.Submitting a request confirms agreement with all policies.",
+      "icon": "ReceiptLongIcon",
+      "id": "dd00"
+    },
+    {
+      "title": "Processing Time",
+      "details": "Once the returned item arrives at our facility, it undergoes a detailed inspection.Inspection includes condition assessment and verification of completeness.Approved returns are processed within five to seven (5–7) business days.Business days exclude weekends and public holidays.Processing times may extend during sales or promotional periods.Customers will receive confirmation once processing begins.Refunds or exchanges are issued only after inspection approval.Rejected returns will be communicated with clear reasons.Additional verification may be required in some cases.Processing time does not include bank settlement periods.We aim to complete processing efficiently and fairly.Customers are advised to keep tracking records.No expedited processing is available.Processing timelines are estimates, not guarantees.Thank you for your patience during this stage.",
+      "icon": "ScheduleIcon",
+      "id": "10c6"
+    },
+    {
+      "title": "Refund Method",
+      "details": "Refunds are issued exclusively to the original payment method used at checkout.Supported payment methods include Mada, credit cards, Apple Pay, and STC Pay.Cash refunds are not available under any circumstances.Refunds are initiated only after return approval.Banks and payment providers may require additional processing time.Refunds typically appear within 7–14 business days International banks may experience longer processing times.Shipping fees paid at checkout are non-refundable.Partial refunds may apply for incomplete returns.Discounts and promotions may affect refund amounts.Refund confirmation does not equal immediate balance update.We are not responsible for bank-related delays.Refund disputes must be handled with payment providers.Refunds cannot be redirected to alternative accounts.This ensures secure and traceable refund handling.",
+      "icon": "LocalShippingIcon",
+      "id": "45fb"
+    },
+    {
+      "title": "Non-Returnable Items",
+      "details": "Certain items are non-returnable due to hygiene and safety regulations.Sale or clearance items are final and cannot be returned or exchanged.Gift cards and digital vouchers are non-refundable.Promotional or complimentary items are excluded from returns.Personal care and hygiene products are non-returnable once opened.Customized or personalized products are final sale.Items marked as “Final Sale” are excluded from all return requests.Used or damaged items are not eligible.Missing accessories invalidate return eligibility.Seasonal items may have additional restrictions.Non-returnable status is clearly stated on product pages.No exceptions will be granted.Customers should review product details carefully before purchase.Disputes regarding exclusions will not be entertained.This policy protects product integrity and customer safety.",
+      "icon": "CancelIcon",
+      "id": "0dc6"
+    },
+    {
+      "title": "Damaged or Incorrect Items",
+      "details": "If you receive a damaged, defective, or incorrect item, notify us within 48 hours.Customers must provide clear photos or videos as evidence.Claims submitted after 48 hours may be rejected.Items must remain unused until verification is complete.Once confirmed, a replacement or refund will be arranged.Replacement shipping is provided at no additional cost.If replacement stock is unavailable, a refund will be issued.Packaging damage alone does not qualify unless product is affected.Damage caused after delivery is not covered.Verification may require additional documentation.Resolution timelines vary depending on investigation.We reserve the right to reject false or unsupported claims.Customers must cooperate during verification.This policy ensures fast and fair resolution.Customer satisfaction is our priority.",
+      "icon": "ReportProblemIcon",
+      "id": "6f6f"
+    },
+    {
+      "title": "International Orders",
+      "details": "International orders are generally not eligible for return or exchange.This restriction is due to customs and shipping limitations.Exceptions apply only for damaged or incorrect items.Issues must be reported within 48 hours of delivery.Proof of damage or error is required for verification.Customs duties and taxes are non-refundable.Return shipping costs for international orders are not covered.Delivery delays caused by customs are beyond our control.International refund processing may take longer. Local regulations may affect eligibility.We are not responsible for import restrictions.Customers are advised to review policies before ordering.International orders are shipped at customer risk.No discretionary exceptions are granted.This policy ensures compliance with international logistics.",
+      "icon": "PublicIcon",
+      "id": "8ecf"
+    },
+    {
+      "title": "Return Shipping Fees",
+      "details": "Return shipping costs are the responsibility of the customer.Exceptions apply only for incorrect or defective items.Original shipping fees are non-refundable.Courier selection must follow provided instructions.Unauthorized shipping methods may result in rejection.Shipping insurance is recommended but optional.Lost return shipments are customer responsibility.Tracking numbers must be retained.Shipping costs vary by location.We do not reimburse self-arranged shipping fees.Shipping delays may affect processing timelines.Improper packaging may void eligibility.International shipping fees are non-refundable.Return shipping costs are not credited.This policy ensures cost transparency.",
+      "icon": "PaidIcon",
+      "id": "06b0"
+    },
+    {
+      "title": "Order Cancellation",
+      "details": "Orders may be canceled within 24 hours of placement.Cancellation must occur before shipment confirmation.Once shipped, orders cannot be canceled.Canceled orders are refunded to the original payment method.Custom or personalized orders cannot be canceled.Late cancellation requests will be rejected.Customers receive confirmation upon successful cancellation.Processing time for canceled orders may vary.Payment provider delays may apply.Cancellations during promotions may have restrictions.Multiple cancellation requests may be denied.Fraud prevention checks may apply.Shipping preparation may start immediately.We reserve the right to refuse cancellations.This policy ensures operational efficiency.",
+      "icon": "HourglassTopIcon",
+      "id": "5023"
+    },
+    {
+      "title": "Store Credit",
+      "details": "Customers may choose store credit instead of a refund.Store credit is issued after return approval.Credit can be used for future purchases only.Store credit is non-transferable and non-redeemable for cash.Credit may have an expiration period.Unused credit expires automatically.Promotions may not apply to credit purchases.Store credit cannot be combined with refunds.Lost or expired credit cannot be reinstated.Credit usage is subject to availability.Partial credit may be issued in some cases.Credit balances are visible in customer accounts.Store credit is issued electronically.No physical vouchers are provided.This option offers faster resolution.",
+      "icon": "AccountBalanceWalletIcon",
+      "id": "8a68"
+    }
+  ],
+  "policySections": [
+    {
+      "title": "1. Introduction",
+      "icon": "InfoIcon",
+      "content": "We value your privacy and are committed to protecting your personal information. This Privacy Policy explains how we collect, use, disclose, and safeguard your data when you use our website and services.",
+      "id": "0332"
+    },
+    {
+      "title": "2. Information We Collect",
+      "icon": "PeopleIcon",
+      "content": "We may collect personal information such as your name, email address, phone number, billing and shipping details, account credentials, IP address, device information, and usage data.",
+      "id": "ee5a"
+    },
+    {
+      "title": "3. Information You Provide Voluntarily",
+      "icon": "PeopleIcon",
+      "content": "This includes information you provide when creating an account, placing an order, contacting support, subscribing to newsletters, filling forms, or participating in promotions.",
+      "id": "9a06"
+    },
+    {
+      "title": "4. Automatically Collected Information",
+      "icon": "SecurityIcon",
+      "content": "We automatically collect certain information such as browser type, operating system, referring URLs, access times, pages viewed, and interactions using cookies and similar technologies.",
+      "id": "9423"
+    },
+    {
+      "title": "5. Cookies and Tracking Technologies",
+      "icon": "SecurityIcon",
+      "content": "We use cookies, web beacons, and similar technologies to enhance user experience, analyze traffic, remember preferences, and improve our services. You can control cookies through your browser settings.",
+      "id": "aedb"
+    },
+    {
+      "title": "6. How We Use Your Information",
+      "icon": "SecurityIcon",
+      "content": "We use your information to operate and maintain our services, process transactions, personalize content, communicate with you, provide customer support, and improve functionality and performance.",
+      "id": "20f1"
+    },
+    {
+      "title": "7. Legal Basis for Processing",
+      "icon": "SecurityIcon",
+      "content": "We process personal data based on consent, contractual necessity, legal obligations, or legitimate business interests, depending on applicable laws.",
+      "id": "cd94"
+    },
+    {
+      "title": "8. Sharing Your Information",
+      "icon": "ShareIcon",
+      "content": "We do not sell or rent your personal information. Data may be shared with trusted service providers, payment processors, analytics partners, or authorities when legally required.",
+      "id": "bae5"
+    },
+    {
+      "title": "9. Third-Party Services",
+      "icon": "ShareIcon",
+      "content": "Our services may integrate third-party tools such as payment gateways, analytics services, or hosting providers. These third parties have their own privacy policies.",
+      "id": "abbd"
+    },
+    {
+      "title": "10. International Data Transfers",
+      "icon": "ShareIcon",
+      "content": "Your information may be transferred to and processed in countries outside your jurisdiction. We ensure appropriate safeguards are in place for such transfers.",
+      "id": "e578"
+    },
+    {
+      "title": "11. Data Retention",
+      "icon": "UpdateIcon",
+      "content": "We retain personal data only for as long as necessary to fulfill the purposes outlined in this policy, comply with legal obligations, and resolve disputes.",
+      "id": "34ef"
+    },
+    {
+      "title": "12. Data Security",
+      "icon": "SecurityIcon",
+      "content": "We implement administrative, technical, and physical security measures to protect your data. However, no method of transmission over the internet is 100% secure.",
+      "id": "ab66"
+    },
+    {
+      "title": "13. Your Privacy Rights",
+      "icon": "PeopleIcon",
+      "content": "Depending on your location, you may have rights to access, correct, delete, restrict, or object to the processing of your personal data.",
+      "id": "0b89"
+    },
+    {
+      "title": "14. GDPR & CCPA Rights",
+      "icon": "PeopleIcon",
+      "content": "Users in certain regions may have additional rights under data protection laws such as GDPR or CCPA, including data portability and the right to withdraw consent.",
+      "id": "7656"
+    },
+    {
+      "title": "15. Marketing Communications",
+      "icon": "ShareIcon",
+      "content": "You may opt out of receiving promotional emails or marketing communications at any time by following the unsubscribe instructions or contacting us.",
+      "id": "a786"
+    },
+    {
+      "title": "16. Children’s Privacy",
+      "icon": "SecurityIcon",
+      "content": "Our services are not intended for children under the age of 13. We do not knowingly collect personal information from children.",
+      "id": "a986"
+    },
+    {
+      "title": "17. Third-Party Links",
+      "icon": "ShareIcon",
+      "content": "Our website may contain links to third-party websites. We are not responsible for the privacy practices or content of those sites.",
+      "id": "ab8b"
+    },
+    {
+      "title": "18. Changes to This Privacy Policy",
+      "icon": "UpdateIcon",
+      "content": "We may update this Privacy Policy from time to time. Any changes will be posted on this page with an updated revision date.",
+      "id": "2eea"
+    },
+    {
+      "title": "19. Contact Us",
+      "icon": "ContactMailIcon",
+      "content": "If you have any questions or concerns about this Privacy Policy or our data practices, please contact us through our official support channels.",
+      "id": "37c0"
+    }
+  ],
+  "Brands": [
+    {
+      "name": "Apple",
+      "id": "c7f1"
+    },
+    {
+      "id": "5040",
+      "name": "Samsung"
+    },
+    {
+      "id": "e848",
+      "name": "Ikea"
+    },
+    {
+      "id": "a8e5",
+      "name": "Huawei"
+    }
+  ],
+  "LastUpdated": [
+    "January 31, 2026"
+  ],
+  "SECTIONS": [
+    {
+      "id": "acceptance",
+      "title": "Acceptance of Terms",
+      "body": "By accessing or using TIVORA, you agree to be bound by these Terms of Service and our policies. If you do not agree, please do not use the website."
+    },
+    {
+      "id": "eligibility",
+      "title": "Eligibility",
+      "body": "You must be able to form a legally binding contract in your jurisdiction to use our services. If you are using the website on behalf of a company, you confirm you have authority to bind that company to these terms."
+    },
+    {
+      "id": "use",
+      "title": "Use of the Website",
+      "body": "You agree not to misuse our services, attempt unauthorized access, disrupt the website, or use the platform for unlawful activity. We may suspend access if we believe these terms have been violated."
+    },
+    {
+      "id": "products",
+      "title": "Products & Availability",
+      "body": "We sell watches and glasses. Product details, pricing, and availability may change at any time. We aim for accurate descriptions, but colors and appearance may vary by device."
+    },
+    {
+      "id": "orders",
+      "title": "Orders & Payments",
+      "body": "By placing an order, you agree to provide accurate billing and shipping information. Orders may be canceled if we suspect fraud, incorrect pricing, or unavailable stock."
+    },
+    {
+      "id": "shipping",
+      "title": "Shipping",
+      "body": "Delivery times are estimates and may vary by location and courier performance. We are not responsible for delays outside our control, including customs or courier disruptions."
+    },
+    {
+      "id": "returns",
+      "title": "Returns & Refunds",
+      "body": "Returns and refunds are handled according to our Return Policy. Items may need to be unused and in original condition unless the product is defective."
+    },
+    {
+      "id": "accounts",
+      "title": "Accounts & Security",
+      "body": "If you create an account, you are responsible for maintaining the confidentiality of your login credentials and for all activity under your account."
+    },
+    {
+      "id": "ip",
+      "title": "Intellectual Property",
+      "body": "All content on this website—including text, images, graphics, logos, and design—belongs to TIVORA or its licensors and is protected by applicable intellectual property laws."
+    },
+    {
+      "id": "liability",
+      "title": "Disclaimer & Limitation of Liability",
+      "body": "To the maximum extent permitted by law, TIVORA is not liable for indirect, incidental, special, or consequential damages arising from your use of the website or products."
+    },
+    {
+      "id": "changes",
+      "title": "Changes to These Terms",
+      "body": "We may update these terms from time to time. Changes become effective once posted on this page. Continued use of the website indicates acceptance of the updated terms."
+    }
+  ],
+  "cookiesPolicy": {
+    "lastUpdated": "January 31, 2026",
+    "sections": [
+      {
+        "id": "what-are-cookies",
+        "question": "What Are Cookies?",
+        "answer": {
+          "type": "rich",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Cookies are small text files stored on your device when you visit a website. They help websites remember your preferences, login status, and interactions so they can provide a smoother experience."
+            }
+          ]
+        }
+      },
+      {
+        "id": "how-we-use",
+        "question": "How We Use Cookies",
+        "answer": {
+          "type": "rich",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "We use cookies to:"
+            },
+            {
+              "type": "ul",
+              "items": [
+                "Keep you signed in and help secure your account",
+                "Remember items in your shopping cart",
+                "Store language and display preferences",
+                "Understand how visitors use our website",
+                "Improve site speed, performance, and design"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "id": "types",
+        "question": "Types of Cookies We Use",
+        "answer": {
+          "type": "gridNotes",
+          "items": [
+            {
+              "title": "Essential Cookies",
+              "text": "Required for core functionality such as login, checkout, and security."
+            },
+            {
+              "title": "Performance & Analytics Cookies",
+              "text": "Help us understand usage patterns so we can improve page speed, navigation, and product discovery."
+            },
+            {
+              "title": "Functionality Cookies",
+              "text": "Remember preferences like language, currency, and layout settings."
+            },
+            {
+              "title": "Marketing Cookies",
+              "text": "May be used to show relevant offers or promotions based on browsing behavior."
+            }
+          ]
+        }
+      },
+      {
+        "id": "third-party",
+        "question": "Third-Party Cookies",
+        "answer": {
+          "type": "rich",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Some cookies may be placed by third-party services such as analytics providers or payment gateways. These providers may process information under their own privacy policies."
+            }
+          ]
+        }
+      },
+      {
+        "id": "managing",
+        "question": "Managing Cookies",
+        "answer": {
+          "type": "rich",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "You can control or delete cookies through your browser settings. Most browsers allow you to block cookies, delete existing ones, or receive alerts before cookies are stored."
+            },
+            {
+              "type": "callout",
+              "text": "Disabling cookies may affect site functionality, including login, checkout, and personalization."
+            }
+          ]
+        }
+      },
+      {
+        "id": "updates",
+        "question": "Updates to This Policy",
+        "answer": {
+          "type": "rich",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "We may update this Cookies Policy to reflect changes in technology, laws, or our practices. Updates will be posted here with a revised “Last updated” date."
+            }
+          ]
+        }
+      },
+      {
+        "id": "contact",
+        "question": "Contact Us",
+        "answer": {
+          "type": "rich",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "If you have questions about how we use cookies, please contact us through TIVORA’s support channels or via our Privacy Policy page."
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "CATEGORIESHelp": [
+    {
+      "id": "orders",
+      "title": "Orders",
+      "desc": "Track orders, invoices, and order status.",
+      "icon": "box",
+      "links": [
+        {
+          "label": "Track my order",
+          "href": "/TrackOrder"
+        },
+        {
+          "label": "Change or cancel an order",
+          "faqId": "change-cancel"
+        },
+        {
+          "label": "Missing item or wrong item",
+          "faqId": "change-cancel"
+        }
+      ]
+    },
+    {
+      "id": "shipping",
+      "title": "Shipping & Delivery",
+      "desc": "Delivery times, fees, and address changes.",
+      "icon": "truck",
+      "links": [
+        {
+          "label": "Shipping options",
+          "faqId": "shipping-times"
+        },
+        {
+          "label": "International delivery",
+          "faqId": "shipping-times"
+        },
+        {
+          "label": "Delivery delays",
+          "faqId": "shipping-times"
+        }
+      ]
+    },
+    {
+      "id": "returns",
+      "title": "Returns & Refunds",
+      "desc": "Return policy, refunds, and exchanges.",
+      "icon": "return",
+      "links": [
+        {
+          "label": "Start a return",
+          "href": "/returns"
+        },
+        {
+          "label": "Refund timeline",
+          "faqId": "refund-when"
+        },
+        {
+          "label": "Exchange an item",
+          "faqId": "return-policy"
+        }
+      ]
+    },
+    {
+      "id": "product",
+      "title": "Product & Warranty",
+      "desc": "Warranty, care, and product questions.",
+      "icon": "shield",
+      "links": [
+        {
+          "label": "Warranty coverage",
+          "faqId": "warranty"
+        },
+        {
+          "label": "Product care",
+          "faqId": "warranty"
+        },
+        {
+          "label": "Authenticity & quality",
+          "faqId": "warranty"
+        }
+      ]
+    },
+    {
+      "id": "account",
+      "title": "Account & Security",
+      "desc": "Login issues, password reset, and privacy.",
+      "icon": "user",
+      "links": [
+        {
+          "label": "Reset password",
+          "href": "/reset-password"
+        },
+        {
+          "label": "Update profile",
+          "href": "/Profile"
+        },
+        {
+          "label": "Security tips",
+          "faqId": "reset-password"
+        }
+      ]
+    },
+    {
+      "id": "payments",
+      "title": "Payments",
+      "desc": "Payment methods, receipts, and issues.",
+      "icon": "card",
+      "links": [
+        {
+          "label": "Payment methods",
+          "faqId": "payment-failed"
+        },
+        {
+          "label": "Promo codes",
+          "faqId": "payment-failed"
+        },
+        {
+          "label": "Payment failed",
+          "faqId": "payment-failed"
+        }
+      ]
+    }
+  ],
+  "FAQS": [
+    {
+      "id": "track-order",
+      "q": "How can I track my order?",
+      "a": "You can track your order from the Track Order page using your order number and email/phone used at checkout. If you have an account, you can also check your order status from your account page.",
+      "tags": [
+        "orders",
+        "tracking"
+      ]
+    },
+    {
+      "id": "change-cancel",
+      "q": "Can I change or cancel my order after placing it?",
+      "a": "If your order has not been processed for shipment yet, we may be able to change or cancel it. Contact support as soon as possible with your order number.",
+      "tags": [
+        "orders"
+      ]
+    },
+    {
+      "id": "shipping-times",
+      "q": "What are your shipping times?",
+      "a": "Shipping times depend on your location and selected delivery method. Estimated delivery dates are shown at checkout. During peak periods, delivery may take longer.",
+      "tags": [
+        "shipping"
+      ]
+    },
+    {
+      "id": "return-policy",
+      "q": "What is your return policy?",
+      "a": "Eligible items can be returned within the return window listed in our Returns policy. Items must be unused and in original packaging. Some items may be non-returnable for hygiene or customization reasons.",
+      "tags": [
+        "returns"
+      ]
+    },
+    {
+      "id": "refund-when",
+      "q": "When will I receive my refund?",
+      "a": "Refunds are typically processed after we receive and inspect your return. Your bank or payment provider may take additional time to post the refund to your account.",
+      "tags": [
+        "returns",
+        "payments"
+      ]
+    },
+    {
+      "id": "payment-failed",
+      "q": "My payment failed — what should I do?",
+      "a": "Try again with a different payment method, ensure your billing details match your bank records, and check if your card supports online payments. If the issue persists, contact your bank or our support team.",
+      "tags": [
+        "payments"
+      ]
+    },
+    {
+      "id": "reset-password",
+      "q": "How do I reset my password?",
+      "a": "Use the Reset Password page and follow the instructions. If you don’t receive the reset email/SMS, check spam/junk or verify your email/phone is correct.",
+      "tags": [
+        "account"
+      ]
+    },
+    {
+      "id": "warranty",
+      "q": "Do products include warranty?",
+      "a": "Many products include a limited warranty. Warranty coverage and duration vary by product. Keep your receipt/invoice for warranty claims.",
+      "tags": [
+        "product",
+        "warranty"
+      ]
+    }
+  ],
+  "COUNTRYCALLINGCODES": [
+    {
+      "name": "Afghanistan",
+      "code": "+93"
+    },
+    {
+      "name": "Albania",
+      "code": "+355"
+    },
+    {
+      "name": "Algeria",
+      "code": "+213"
+    },
+    {
+      "name": "Andorra",
+      "code": "+376"
+    },
+    {
+      "name": "Angola",
+      "code": "+244"
+    },
+    {
+      "name": "Antigua and Barbuda",
+      "code": "+1-268"
+    },
+    {
+      "name": "Argentina",
+      "code": "+54"
+    },
+    {
+      "name": "Armenia",
+      "code": "+374"
+    },
+    {
+      "name": "Australia",
+      "code": "+61"
+    },
+    {
+      "name": "Austria",
+      "code": "+43"
+    },
+    {
+      "name": "Azerbaijan",
+      "code": "+994"
+    },
+    {
+      "name": "Bahamas",
+      "code": "+1-242"
+    },
+    {
+      "name": "Bahrain",
+      "code": "+973"
+    },
+    {
+      "name": "Bangladesh",
+      "code": "+880"
+    },
+    {
+      "name": "Barbados",
+      "code": "+1-246"
+    },
+    {
+      "name": "Belarus",
+      "code": "+375"
+    },
+    {
+      "name": "Belgium",
+      "code": "+32"
+    },
+    {
+      "name": "Belize",
+      "code": "+501"
+    },
+    {
+      "name": "Benin",
+      "code": "+229"
+    },
+    {
+      "name": "Bhutan",
+      "code": "+975"
+    },
+    {
+      "name": "Bolivia",
+      "code": "+591"
+    },
+    {
+      "name": "Bosnia and Herzegovina",
+      "code": "+387"
+    },
+    {
+      "name": "Botswana",
+      "code": "+267"
+    },
+    {
+      "name": "Brazil",
+      "code": "+55"
+    },
+    {
+      "name": "Brunei",
+      "code": "+673"
+    },
+    {
+      "name": "Bulgaria",
+      "code": "+359"
+    },
+    {
+      "name": "Burkina Faso",
+      "code": "+226"
+    },
+    {
+      "name": "Burundi",
+      "code": "+257"
+    },
+    {
+      "name": "Cambodia",
+      "code": "+855"
+    },
+    {
+      "name": "Cameroon",
+      "code": "+237"
+    },
+    {
+      "name": "Canada",
+      "code": "+1"
+    },
+    {
+      "name": "Cape Verde",
+      "code": "+238"
+    },
+    {
+      "name": "Central African Republic",
+      "code": "+236"
+    },
+    {
+      "name": "Chad",
+      "code": "+235"
+    },
+    {
+      "name": "Chile",
+      "code": "+56"
+    },
+    {
+      "name": "China",
+      "code": "+86"
+    },
+    {
+      "name": "Colombia",
+      "code": "+57"
+    },
+    {
+      "name": "Comoros",
+      "code": "+269"
+    },
+    {
+      "name": "Congo (DRC)",
+      "code": "+243"
+    },
+    {
+      "name": "Congo (Republic)",
+      "code": "+242"
+    },
+    {
+      "name": "Costa Rica",
+      "code": "+506"
+    },
+    {
+      "name": "Croatia",
+      "code": "+385"
+    },
+    {
+      "name": "Cuba",
+      "code": "+53"
+    },
+    {
+      "name": "Cyprus",
+      "code": "+357"
+    },
+    {
+      "name": "Czechia",
+      "code": "+420"
+    },
+    {
+      "name": "Denmark",
+      "code": "+45"
+    },
+    {
+      "name": "Djibouti",
+      "code": "+253"
+    },
+    {
+      "name": "Dominica",
+      "code": "+1-767"
+    },
+    {
+      "name": "Dominican Republic",
+      "code": "+1-809"
+    },
+    {
+      "name": "Dominican Republic",
+      "code": "+1-829"
+    },
+    {
+      "name": "Dominican Republic",
+      "code": "+1-849"
+    },
+    {
+      "name": "Ecuador",
+      "code": "+593"
+    },
+    {
+      "name": "Egypt",
+      "code": "+20"
+    },
+    {
+      "name": "El Salvador",
+      "code": "+503"
+    },
+    {
+      "name": "Equatorial Guinea",
+      "code": "+240"
+    },
+    {
+      "name": "Eritrea",
+      "code": "+291"
+    },
+    {
+      "name": "Estonia",
+      "code": "+372"
+    },
+    {
+      "name": "Eswatini",
+      "code": "+268"
+    },
+    {
+      "name": "Ethiopia",
+      "code": "+251"
+    },
+    {
+      "name": "Fiji",
+      "code": "+679"
+    },
+    {
+      "name": "Finland",
+      "code": "+358"
+    },
+    {
+      "name": "France",
+      "code": "+33"
+    },
+    {
+      "name": "Gabon",
+      "code": "+241"
+    },
+    {
+      "name": "Gambia",
+      "code": "+220"
+    },
+    {
+      "name": "Georgia",
+      "code": "+995"
+    },
+    {
+      "name": "Germany",
+      "code": "+49"
+    },
+    {
+      "name": "Ghana",
+      "code": "+233"
+    },
+    {
+      "name": "Greece",
+      "code": "+30"
+    },
+    {
+      "name": "Grenada",
+      "code": "+1-473"
+    },
+    {
+      "name": "Guatemala",
+      "code": "+502"
+    },
+    {
+      "name": "Guinea",
+      "code": "+224"
+    },
+    {
+      "name": "Guinea-Bissau",
+      "code": "+245"
+    },
+    {
+      "name": "Guyana",
+      "code": "+592"
+    },
+    {
+      "name": "Haiti",
+      "code": "+509"
+    },
+    {
+      "name": "Honduras",
+      "code": "+504"
+    },
+    {
+      "name": "Hong Kong",
+      "code": "+852"
+    },
+    {
+      "name": "Hungary",
+      "code": "+36"
+    },
+    {
+      "name": "Iceland",
+      "code": "+354"
+    },
+    {
+      "name": "India",
+      "code": "+91"
+    },
+    {
+      "name": "Indonesia",
+      "code": "+62"
+    },
+    {
+      "name": "Iran",
+      "code": "+98"
+    },
+    {
+      "name": "Iraq",
+      "code": "+964"
+    },
+    {
+      "name": "Ireland",
+      "code": "+353"
+    },
+    {
+      "name": "Israel",
+      "code": "+972"
+    },
+    {
+      "name": "Italy",
+      "code": "+39"
+    },
+    {
+      "name": "Jamaica",
+      "code": "+1-876"
+    },
+    {
+      "name": "Japan",
+      "code": "+81"
+    },
+    {
+      "name": "Jordan",
+      "code": "+962"
+    },
+    {
+      "name": "Kazakhstan",
+      "code": "+7"
+    },
+    {
+      "name": "Kenya",
+      "code": "+254"
+    },
+    {
+      "name": "Kiribati",
+      "code": "+686"
+    },
+    {
+      "name": "Kuwait",
+      "code": "+965"
+    },
+    {
+      "name": "Kyrgyzstan",
+      "code": "+996"
+    },
+    {
+      "name": "Laos",
+      "code": "+856"
+    },
+    {
+      "name": "Latvia",
+      "code": "+371"
+    },
+    {
+      "name": "Lebanon",
+      "code": "+961"
+    },
+    {
+      "name": "Lesotho",
+      "code": "+266"
+    },
+    {
+      "name": "Liberia",
+      "code": "+231"
+    },
+    {
+      "name": "Libya",
+      "code": "+218"
+    },
+    {
+      "name": "Liechtenstein",
+      "code": "+423"
+    },
+    {
+      "name": "Lithuania",
+      "code": "+370"
+    },
+    {
+      "name": "Luxembourg",
+      "code": "+352"
+    },
+    {
+      "name": "Macau",
+      "code": "+853"
+    },
+    {
+      "name": "Madagascar",
+      "code": "+261"
+    },
+    {
+      "name": "Malawi",
+      "code": "+265"
+    },
+    {
+      "name": "Malaysia",
+      "code": "+60"
+    },
+    {
+      "name": "Maldives",
+      "code": "+960"
+    },
+    {
+      "name": "Mali",
+      "code": "+223"
+    },
+    {
+      "name": "Malta",
+      "code": "+356"
+    },
+    {
+      "name": "Marshall Islands",
+      "code": "+692"
+    },
+    {
+      "name": "Mauritania",
+      "code": "+222"
+    },
+    {
+      "name": "Mauritius",
+      "code": "+230"
+    },
+    {
+      "name": "Mexico",
+      "code": "+52"
+    },
+    {
+      "name": "Micronesia",
+      "code": "+691"
+    },
+    {
+      "name": "Moldova",
+      "code": "+373"
+    },
+    {
+      "name": "Monaco",
+      "code": "+377"
+    },
+    {
+      "name": "Mongolia",
+      "code": "+976"
+    },
+    {
+      "name": "Montenegro",
+      "code": "+382"
+    },
+    {
+      "name": "Morocco",
+      "code": "+212"
+    },
+    {
+      "name": "Mozambique",
+      "code": "+258"
+    },
+    {
+      "name": "Myanmar",
+      "code": "+95"
+    },
+    {
+      "name": "Namibia",
+      "code": "+264"
+    },
+    {
+      "name": "Nauru",
+      "code": "+674"
+    },
+    {
+      "name": "Nepal",
+      "code": "+977"
+    },
+    {
+      "name": "Netherlands",
+      "code": "+31"
+    },
+    {
+      "name": "New Zealand",
+      "code": "+64"
+    },
+    {
+      "name": "Nicaragua",
+      "code": "+505"
+    },
+    {
+      "name": "Niger",
+      "code": "+227"
+    },
+    {
+      "name": "Nigeria",
+      "code": "+234"
+    },
+    {
+      "name": "North Korea",
+      "code": "+850"
+    },
+    {
+      "name": "North Macedonia",
+      "code": "+389"
+    },
+    {
+      "name": "Norway",
+      "code": "+47"
+    },
+    {
+      "name": "Oman",
+      "code": "+968"
+    },
+    {
+      "name": "Pakistan",
+      "code": "+92"
+    },
+    {
+      "name": "Palau",
+      "code": "+680"
+    },
+    {
+      "name": "Palestine",
+      "code": "+970"
+    },
+    {
+      "name": "Panama",
+      "code": "+507"
+    },
+    {
+      "name": "Papua New Guinea",
+      "code": "+675"
+    },
+    {
+      "name": "Paraguay",
+      "code": "+595"
+    },
+    {
+      "name": "Peru",
+      "code": "+51"
+    },
+    {
+      "name": "Philippines",
+      "code": "+63"
+    },
+    {
+      "name": "Poland",
+      "code": "+48"
+    },
+    {
+      "name": "Portugal",
+      "code": "+351"
+    },
+    {
+      "name": "Qatar",
+      "code": "+974"
+    },
+    {
+      "name": "Romania",
+      "code": "+40"
+    },
+    {
+      "name": "Russia",
+      "code": "+7"
+    },
+    {
+      "name": "Rwanda",
+      "code": "+250"
+    },
+    {
+      "name": "Saint Kitts and Nevis",
+      "code": "+1-869"
+    },
+    {
+      "name": "Saint Lucia",
+      "code": "+1-758"
+    },
+    {
+      "name": "Saint Vincent and the Grenadines",
+      "code": "+1-784"
+    },
+    {
+      "name": "Samoa",
+      "code": "+685"
+    },
+    {
+      "name": "San Marino",
+      "code": "+378"
+    },
+    {
+      "name": "Sao Tome and Principe",
+      "code": "+239"
+    },
+    {
+      "name": "Saudi Arabia",
+      "code": "+966"
+    },
+    {
+      "name": "Senegal",
+      "code": "+221"
+    },
+    {
+      "name": "Serbia",
+      "code": "+381"
+    },
+    {
+      "name": "Seychelles",
+      "code": "+248"
+    },
+    {
+      "name": "Sierra Leone",
+      "code": "+232"
+    },
+    {
+      "name": "Singapore",
+      "code": "+65"
+    },
+    {
+      "name": "Slovakia",
+      "code": "+421"
+    },
+    {
+      "name": "Slovenia",
+      "code": "+386"
+    },
+    {
+      "name": "Solomon Islands",
+      "code": "+677"
+    },
+    {
+      "name": "Somalia",
+      "code": "+252"
+    },
+    {
+      "name": "South Africa",
+      "code": "+27"
+    },
+    {
+      "name": "South Korea",
+      "code": "+82"
+    },
+    {
+      "name": "South Sudan",
+      "code": "+211"
+    },
+    {
+      "name": "Spain",
+      "code": "+34"
+    },
+    {
+      "name": "Sri Lanka",
+      "code": "+94"
+    },
+    {
+      "name": "Sudan",
+      "code": "+249"
+    },
+    {
+      "name": "Suriname",
+      "code": "+597"
+    },
+    {
+      "name": "Sweden",
+      "code": "+46"
+    },
+    {
+      "name": "Switzerland",
+      "code": "+41"
+    },
+    {
+      "name": "Syria",
+      "code": "+963"
+    },
+    {
+      "name": "Taiwan",
+      "code": "+886"
+    },
+    {
+      "name": "Tajikistan",
+      "code": "+992"
+    },
+    {
+      "name": "Tanzania",
+      "code": "+255"
+    },
+    {
+      "name": "Thailand",
+      "code": "+66"
+    },
+    {
+      "name": "Timor-Leste",
+      "code": "+670"
+    },
+    {
+      "name": "Togo",
+      "code": "+228"
+    },
+    {
+      "name": "Tonga",
+      "code": "+676"
+    },
+    {
+      "name": "Trinidad and Tobago",
+      "code": "+1-868"
+    },
+    {
+      "name": "Tunisia",
+      "code": "+216"
+    },
+    {
+      "name": "Turkey",
+      "code": "+90"
+    },
+    {
+      "name": "Turkmenistan",
+      "code": "+993"
+    },
+    {
+      "name": "Tuvalu",
+      "code": "+688"
+    },
+    {
+      "name": "Uganda",
+      "code": "+256"
+    },
+    {
+      "name": "Ukraine",
+      "code": "+380"
+    },
+    {
+      "name": "United Arab Emirates",
+      "code": "+971"
+    },
+    {
+      "name": "United Kingdom",
+      "code": "+44"
+    },
+    {
+      "name": "United States",
+      "code": "+1"
+    },
+    {
+      "name": "Uruguay",
+      "code": "+598"
+    },
+    {
+      "name": "Uzbekistan",
+      "code": "+998"
+    },
+    {
+      "name": "Vanuatu",
+      "code": "+678"
+    },
+    {
+      "name": "Vatican City",
+      "code": "+379"
+    },
+    {
+      "name": "Venezuela",
+      "code": "+58"
+    },
+    {
+      "name": "Vietnam",
+      "code": "+84"
+    },
+    {
+      "name": "Yemen",
+      "code": "+967"
+    },
+    {
+      "name": "Zambia",
+      "code": "+260"
+    },
+    {
+      "name": "Zimbabwe",
+      "code": "+263"
+    }
+  ],
+  "HelpCenterMessage": []
+}

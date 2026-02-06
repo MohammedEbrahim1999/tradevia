@@ -1,0 +1,17 @@
+Header
+↓
+Hero Carousel
+↓
+Categories   
+↓
+Featured Products / Projects
+↓
+Why Choose Us
+↓
+CTA Banner
+↓
+Testimonials
+↓
+Newsletter
+↓
+Footer
