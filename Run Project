@@ -1,0 +1,80 @@
+# 🛒 Next.js E-Commerce Application
+
+A modern and responsive **E-Commerce web application** built with **Next.js** and a **JSON Server mock backend**.  
+This project demonstrates real-world front-end architecture, REST API integration, smooth animations, and scalable UI components.
+
+---
+
+## 🚀 Features
+
+- Modern **Next.js App Router** architecture
+- Dynamic product and category pages
+- Mock backend using **JSON Server**
+- RESTful API integration
+- Fully responsive design (mobile, tablet, desktop)
+- Smooth animations with **Framer Motion**
+- Interactive sliders using **Swiper.js**
+- Clean and scalable component structure
+- Optimized performance and user experience
+
+---
+
+## 🧰 Tech Stack
+
+### Frontend
+- Next.js
+- JavaScript (ES6)
+- Tailwind CSS
+- CSS
+
+### Backend (Mock)
+- JSON Server
+- REST APIs
+
+### Libraries & Tools
+- Framer Motion
+- Swiper.js
+- Git & GitHub
+- Matrial Ui
+
+---
+
+## 📦 Prerequisites
+
+Make sure you have the following installed:
+
+- **Node.js** (v16 or later)
+- **npm** or **yarn**
+- **Git**
+
+---
+
+## ⚙️ Project Setup
+
+### 1️⃣ Clone the Repository
+
+```bash
+git clone https://github.com/your-username/your-repo-name.git
+cd your-repo-name
+2️⃣ Install Project Dependencies
+npm install
+
+3️⃣ Install JSON Server (Global)
+
+JSON Server is used as a mock backend for products, categories, and orders.
+
+npm install -g json-server
+
+4️⃣ Run JSON Server (Important)
+
+⚠️ You must start JSON Server before running the Next.js application.
+
+json-server --watch db.json --port 5000
+
+
+The API will be available at:
+
+http://localhost:5000
+
+5️⃣ Run the Next.js Application
+npm run dev
