@@ -70,6 +70,8 @@ npm install -g json-server
 ⚠️ You must start JSON Server before running the Next.js application.
 
 json-server --watch db.json --port 5000
+Or 
+npx json-server --watch db.json --port 5000
 
 
 The API will be available at:
