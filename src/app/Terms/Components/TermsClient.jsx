@@ -37,7 +37,7 @@ export default function TermsClient() {
           <div className="heroTop">
             <div className="tag">Legal & Policies</div>
             <div className="tag">
-              Last updated: <span className="mono">{LASTUPDATED[0]?.date}</span>
+              Last updated : <span className="mono">{LASTUPDATED[0]?.date}</span>
             </div>
           </div>
 
@@ -48,7 +48,7 @@ export default function TermsClient() {
           </p>
         </header>
 
-        <BookReader sections={SECTIONS} lastUpdated={LASTUPDATED[0]?.date} />
+        <BookReader sections={SECTIONS} lastUpdated={LASTUPDATED[0]?.date}  />
       </div>
 
       <style jsx>{`
