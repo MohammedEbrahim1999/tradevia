@@ -419,6 +419,56 @@
       "shipCost": 0,
       "discount": 1350,
       "paymentMethod": "cod"
+    },
+    {
+      "id": "cfe7",
+      "orderId": "#3678084",
+      "userId": 6181,
+      "sellerId": 1,
+      "customer": "Mohammed Ebrahim",
+      "items": [
+        {
+          "id": "aab7",
+          "productName": "Iphone 17 Pro Max",
+          "quantity": 1,
+          "unitPrice": 4400,
+          "image": "/imgs/17.jpg"
+        }
+      ],
+      "totalPrice": 4400,
+      "status": "Pending",
+      "userTokens": "#U888884",
+      "createdAt": "2026-02-09T05:08:27.106Z",
+      "addressId": "fead",
+      "address": {
+        "id": "fead",
+        "label": "",
+        "isDefault": true,
+        "fullName": "Mohammed Ebrahim",
+        "phone": "01021891089",
+        "line1": "123 Main St",
+        "line2": "Apt 4B",
+        "city": "Riyadh",
+        "region": "Riyadh Province",
+        "country": "Saudi Arabia",
+        "postalCode": "11564",
+        "raw": {
+          "id": "fead",
+          "userTokens": "#U888884",
+          "fullName": "Mohammed Ebrahim",
+          "phone": "01021891089",
+          "addressLine1": "123 Main St",
+          "addressLine2": "Apt 4B",
+          "city": "Riyadh",
+          "state": "Riyadh Province",
+          "postalCode": "11564",
+          "country": "Saudi Arabia",
+          "isDefault": true
+        }
+      },
+      "shipCost": 0,
+      "discount": 0,
+      "paymentMethod": "cod"
     }
   ],
   "discounts": [
@@ -923,7 +973,21 @@
       "userTokens": "#W341318"
     }
   ],
-  "cart": [],
+  "cart": [
+    {
+      "id": "aab7",
+      "productId": "1",
+      "name": "Iphone 17 Pro Max",
+      "sellerId": 1,
+      "price": 5663.99,
+      "salePrice": 4400,
+      "image": "/imgs/17.jpg",
+      "quantity": 1,
+      "userTokens": "#U888884",
+      "category": "Mobile Phones",
+      "description": "This is a Smart Phone Latest Verision."
+    }
+  ],
   "shipping": [
     {
       "free": "Free Shipping",
@@ -1444,9 +1508,6 @@
       "id": "a8e5",
       "name": "Huawei"
     }
-  ],
-  "LastUpdated": [
-    "January 31, 2026"
   ],
   "SECTIONS": [
     {
@@ -2614,6 +2675,12 @@
     {
       "name": "Zimbabwe",
       "code": "+263"
+    }
+  ],
+  "LastUpdated": [
+    {
+      "id": "1247",
+      "date": "January 31, 2026"
     }
   ],
   "HelpCenterMessage": []
