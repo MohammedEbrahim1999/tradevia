@@ -1,32 +1,36 @@
-"use client";
-import dynamic from "next/dynamic";
-import { useState,useEffect } from "react";
-import { useRouter } from "next/navigation";
-const Sidebar = dynamic(() => import("./Navigate/SideBar"), { ssr: false });
-const Header = dynamic(() => import("./Navigate/Header"), { ssr: false });
-export default function SellerLayout({ children }) {
-    const [sidebarOpen, setSidebarOpen] = useState(true);
-    const router = useRouter();
-    useEffect(() => {
-        fetch("http://localhost:5000/loggedUsers")
-            .then(res => res.json())
-            .then(data => {
+import SellerLayoutClient from "./SellerLayoutClient";
 
-                if (data.length === 0) {
-                    router.push("/SellerLogin"); // ❌ Not logged → redirect
-                }
-            });
-    }, []);
+/** * 1. Dynamic Metadata Generation
+ * Next.js calls this on the server before rendering the page.
+ */
+export async function generateMetadata() {
+    try {
+        // Fetch the logged-in users from your local server
+        const response = await fetch("http://localhost:5000/loggedUsers", {
+            cache: 'no-store' // Ensure we get the latest login status
+        });
 
-    return (
-        <div className="flex bg-gray-900 text-white">
-            <div className="flex gap-3 flex-row w-full">
-                <Sidebar />
-                <div className="flex gap-3 w-full flex-col">
-                    <Header  toggleSidebar={() => setSidebarOpen(!sidebarOpen)} />
-                    <main className="">{children}</main>
-                </div>
-            </div>
-        </div>
-    );
+        const loggedUsers = await response.json();
+
+        // Find the user who is actually logged in (loginStatus: true)
+        const activeUser = loggedUsers.find(user => user.loginStatus === true);
+
+        // Fallback if no user is logged in
+        const storeName = activeUser ? activeUser.store : "Seller";
+
+        return {
+            title: `${storeName} Dashboard`,
+            description: `Manage your products and sales for ${storeName}`,
+        };
+    } catch (error) {
+        // Fallback metadata if the server at :5000 is down
+        return {
+            title: "Tradevia | Seller Dashboard",
+            description: "Manage your products and sales",
+        };
+    }
+}
+
+export default function RootSellerLayout({ children }) {
+    return <SellerLayoutClient>{children}</SellerLayoutClient>;
 }

@@ -23,6 +23,8 @@ export default function useProductData({ id, API_PRODUCTS }) {
 
                 // try single product endpoint
                 try {
+                    await new Promise((resolve) => setTimeout(resolve, 3000));
+
                     const r1 = await fetch(API_PRODUCT, { cache: "no-store" });
                     if (r1.ok) {
                         const one = await r1.json();

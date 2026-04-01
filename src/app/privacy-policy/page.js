@@ -1,42 +1,15 @@
-'use client';
-import React from 'react';
-import dynamic from 'next/dynamic';
-import { useState, useEffect } from 'react';
-const PrivacyPolicyPage = dynamic(
-    () => import('./Components/PrivacyPolicyPage.jsx'),
-    { ssr: false }
-);
-const AboutBread = dynamic(
-    () => import('../FixedComponent/AboutBread.jsx'),
-    { ssr: false }
-);
-const page = () => {
-    const [privacyPage, setPrivacyPage] = useState([]);
-    const [loading, setLoading] = useState(true);
-    const [error, setError] = useState(null);
-    const API_Privacy = "http://localhost:5000/policySections";
-    useEffect(() => {
-        const fetchLoggedCustomers = async () => {
-            try {
-                const res = await fetch(API_Privacy);
-                if (!res.ok) throw new Error("Failed to fetch logged customers");
-                const data = await res.json();
-                setPrivacyPage(data);
-            } catch (err) {
-                setError(err.message);
-            } finally {
-                setLoading(false);
-            }
-        };
+import PrivacyPolicy from './privacyPolicy';
 
-        fetchLoggedCustomers();
-    }, []);
-    return (
-        <>
-            <AboutBread Name={"Privacy Policy"} text={"Last updated: January 2026"} />
-            <PrivacyPolicyPage policySections={privacyPage} />
-        </>
-    )
+export const metadata = {
+    title: 'Tradevia / Privacy Policy',
+    description: 'At Tradevia, we are committed to protecting your privacy and ensuring the security of your personal information. This Privacy Policy outlines how we collect, use, and safeguard your data when you use our platform. We respect your privacy and are dedicated to providing a safe and secure shopping experience for all our users.',
+    icons:{
+        icon: "/icons/privacy 22.svg",
+    }
 }
 
-export default page
+const ComponentName = () => {
+    return <PrivacyPolicy />;
+};
+
+export default ComponentName;

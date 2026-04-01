@@ -1,14 +1,39 @@
-'use client'
-import React from 'react'
-import dynamic from 'next/dynamic'
-const SellerDashboardMain = dynamic(() => import("./Navigate/SellerDashboardMain"), { ssr: false }); 
-const page = () => {
-    
-    return (
-        <>
-            <SellerDashboardMain />
-        </>
-    )
+import PageData from "./PageData";
+
+/** * 1. Dynamic Metadata Generation
+ * Next.js calls this on the server before rendering the page.
+ */
+export async function generateMetadata() {
+    try {
+        // Fetch the logged-in users from your local server
+        const response = await fetch("http://localhost:5000/loggedUsers", {
+            cache: 'no-store' // Ensure we get the latest login status
+        });
+
+        const loggedUsers = await response.json();
+
+        // Find the user who is actually logged in (loginStatus: true)
+        const activeUser = loggedUsers.find(user => user.loginStatus === true);
+
+        // Fallback if no user is logged in
+        const storeName = activeUser ? activeUser.store : "Seller";
+
+        return {
+            title: `${storeName} Dashboard | Main Page`,
+            description: `Welcome to your ${storeName} dashboard. Manage your products, track orders, and grow your business on our platform.`,
+            icons: {
+                icon: "/icons/Main.svg",
+            }
+        };
+    } catch (error) {
+        // Fallback metadata if the server at :5000 is down
+        return {
+            title: "Tradevia | Seller Dashboard",
+            description: "Manage your products and sales",
+        };
+    }
 }
 
-export default page
+export default function page({ }) {
+    return <PageData/>;
+}

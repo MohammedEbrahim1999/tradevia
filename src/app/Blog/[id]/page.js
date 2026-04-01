@@ -1,78 +1,62 @@
-"use client";
+// import BlogPosts from './BlogPosts';
 
-import { Box, Container, Typography } from "@mui/material";
-import dynamic from "next/dynamic";
-import { useEffect, useState } from "react";
-// Dynamic imports for components
-const HeroSection = dynamic(() => import("./Components/HeroSection.jsx"));
-const TagActions = dynamic(() => import("./Components/TagActions.jsx"));
-const TableContent = dynamic(() => import("./Components/TableContent.jsx"));
-const ArticleContent = dynamic(() => import("./Components/ArticleContent.jsx"));
-const AuthorBio = dynamic(() => import("./Components/AuthorBio.jsx"));
-const RelatedPosts = dynamic(() => import("./Components/RelatedPosts.jsx"));
-import { useParams } from "next/navigation";
 
-export default function BlogPostPage({ params }) {
-  // Find the post by matching IDs as strings
-  const { id } = useParams(); // ✅ CORRECT
-  const [blog, setBlog] = useState([]);
-  const [loading, setLoading] = useState(true);
-  const [error, setError] = useState(null);
-  const API_blog = "http://localhost:5000/blogPosts";
-  useEffect(() => {
-    const fetchLoggedCustomers = async () => {
-      try {
-        const res = await fetch(API_blog);
-        if (!res.ok) throw new Error("Failed to fetch logged customers");
-        const data = await res.json();
-        setBlog(data);
-      } catch (err) {
-        setError(err.message);
-      } finally {
-        setLoading(false);
+
+
+// export const metadata = {
+//     title: 'Tradevia / Blog Posts Hello',
+//     description: 'Manage your shopping cart on Tradevia. Easily review products, adjust quantities, and move to a fast and secure checkout experience.',
+//     icons:{
+//         icon: "/icons/blog-svg.svg",
+//     }
+// }
+
+// const page = async ({params}) => {
+//     return <BlogPosts />;
+// };
+
+// export default page;
+import { Suspense } from 'react';
+import BlogPosts from './BlogPosts';
+import Loading from '../../loading';
+// 1. Corrected generateMetadata with awaited params
+export async function generateMetadata({ params }) {
+  // FIX: Await params before accessing .id
+  const { id } = await params;
+
+  try {
+    const response = await fetch(`http://localhost:5000/blogPosts/${id}`);
+    console.log("Fetched post data for ID:", id, response); // Debug log to verify fetch response
+    if (!response.ok) {
+      return { title: 'Post Not Found | Tradevia' };
+    }
+
+    const post = await response.json();
+
+    return {
+      title: `${post.title} | Tradevia`,
+      description: post.excerpt?.substring(0, 160) || "Read our latest blog post.",
+      icons: {
+        icon: post.icons,
       }
     };
-
-    fetchLoggedCustomers();
-  }, []);
-  const post = blog.find((p) => String(p.id) === id);
-
-  if (!post) {
-    return (
-      <Typography align="center" sx={{ mt: 10, fontWeight: 500 }}>
-        Post not found
-      </Typography>
-    );
+  } catch (error) {
+    return { title: 'Tradevia Blog' };
   }
-
-  return (
-    <Box sx={{ bgcolor: "grey.50", position: "relative" }}>
-      {/* Hero Section */}
-      <HeroSection
-        blogImg={post.image}
-        blogTitle={post.title}
-        blogTags={post.tags}
-        blogAuthor={post.author}
-        blogData={post.date}
-      />
-
-      <Container sx={{ mt: 0, pb: 12 }}>
-        <Box
-          sx={{
-            bgcolor: "background.paper",
-            borderRadius: 4,
-            p: { xs: 3, md: 6 },
-            boxShadow: "0 20px 50px rgba(0,0,0,0.08)",
-          }}
-        >
-          {/* Blog actions & content */}
-          <TagActions blogTags={post.tags} />
-          <TableContent blogContent={post.content} />
-          <ArticleContent blogContent={post.content} />
-          <AuthorBio blogAuthor={post.author} authorJob={post.job} />
-          <RelatedPosts blogPosts={blog} post={post} />
-        </Box>
-      </Container>
-    </Box>
-  );
 }
+
+// 2. Corrected Page component with awaited params
+const page = async ({ params }) => {
+  // FIX: Await params here as well
+  const { id } = await params;
+  // Pass the id down to your client or server component if needed
+  return (
+    <>
+      <Suspense fallback={<Loading />}>
+        <BlogPosts id={id} />
+      </Suspense>
+    </>
+  );
+};
+
+export default page;

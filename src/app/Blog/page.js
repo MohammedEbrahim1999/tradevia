@@ -1,35 +1,23 @@
-'use client';
-import dynamic from "next/dynamic";
-import { useEffect, useState } from "react";
+import { Suspense } from 'react';
+import BlogComponent from './BlogComponent';
+import Loading from '../loading';
 
-const CardBlog = dynamic(() => import("./Components/CardBlog.jsx"));
-const AboutBread = dynamic(() => import("../FixedComponent/AboutBread.jsx"));
-
-export default function BlogPage() {
-    const [blog, setBlog] = useState([]);
-    const [loading, setLoading] = useState(true);
-    const [error, setError] = useState(null);
-    const API_blog = "http://localhost:5000/blogPosts";
-    useEffect(() => {
-        const fetchLoggedCustomers = async () => {
-            try {
-                const res = await fetch(API_blog);
-                if (!res.ok) throw new Error("Failed to fetch logged customers");
-                const data = await res.json();
-                setBlog(data);
-            } catch (err) {
-                setError(err.message);
-            } finally {
-                setLoading(false);
-            }
-        };
-
-        fetchLoggedCustomers();
-    }, []);
-    return (
-        <>
-            <AboutBread Name={" Marketplace Blog"} />
-            <CardBlog blogPosts={blog} />
-        </>
-    );
+export const metadata = {
+    title: 'Tradevia / Blog',
+    description: 'Manage your shopping cart on Tradevia. Easily review products, adjust quantities, and move to a fast and secure checkout experience.',
+    icons:{
+        icon: "/icons/blog-svg.svg",
+    }
 }
+
+const page = () => {
+    return(
+        <>
+            <Suspense fallback={<Loading />}>
+                <BlogComponent />
+            </Suspense>
+        </>
+    ) ;
+};
+
+export default page;

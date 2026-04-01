@@ -1,13 +1,13 @@
-import React from 'react'
-import dynamic from "next/dynamic";
+export const metadata = {
+    title: "Seller Dashboard | Login ",
+    description: 'Login to your seller dashboard to manage your products, track orders, and grow your business on our platform.',
+    icons: {
+        icon: "/icons/LoginSeller.svg",
+    }   
+};
 
-const SellerLogin = dynamic(() => import("./Components/SellerLogin"));
-const page = () => {
-  return (
-    <>
-      <SellerLogin />
-    </>
-  )
+import PageLogin from "./PageLogin";
+
+export default function CookiesPage() {
+    return <PageLogin />;
 }
-
-export default page

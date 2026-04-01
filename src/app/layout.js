@@ -1,5 +1,5 @@
 "use client";
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import { usePathname } from "next/navigation";
 import dynamic from "next/dynamic";
 import "./globals.css";
@@ -11,46 +11,45 @@ const GoTop = dynamic(() => import("./LayoutComponant/GoTop"));
 
 export default function RootLayout({ children }) {
   const pathname = usePathname();
-  const isAuthPage = pathname?.toLowerCase().includes("/sellersignup") || pathname?.toLowerCase().includes("/sellerlogin") || pathname?.toLocaleLowerCase().includes("/sellerdashboard") || pathname?.toLocaleLowerCase().includes("/login");
-  useEffect(() => {
-    const redirect = sessionStorage.getItem("logoutRedirect");
+  const [isNotFoundPage, setIsNotFoundPage] = useState(false);
 
+  const isAuthPage =
+    pathname?.toLowerCase().includes("/sellersignup") ||
+    pathname?.toLowerCase().includes("/sellerlogin") ||
+    pathname?.toLowerCase().includes("/sellerdashboard") ||
+    pathname?.toLowerCase().includes("/login");
+
+  useEffect(() => {
+    // detect 404 page safely
+    setIsNotFoundPage(document.body.classList.contains("not-found-page"));
+
+    const redirect = sessionStorage.getItem("logoutRedirect");
     if (redirect) {
       sessionStorage.removeItem("logoutRedirect");
       window.location.replace(redirect);
     }
   }, []);
 
+  const hideLayout = isAuthPage || isNotFoundPage;
+
   return (
     <html lang="en">
       <head>
         <title>Tradevia</title>
-        <link rel="icon" type="image/png" sizes="32x32" href="../../public/TDC.png" />
-        <link
-          rel="stylesheet"
-          type="text/css"
-          charSet="UTF-8"
-          href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css"
-        />
-        <link
-          rel="stylesheet"
-          type="text/css"
-          href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css"
-        />
+        <link rel="icon" href="/TDC.png" />
       </head>
       <body>
-        {!isAuthPage && (
+        {!hideLayout && (
           <>
             <TopBar />
             <MainHeader />
           </>
         )}
+
         {children}
-        {!isAuthPage && (
-          <>
-            <Footer />
-          </>
-        )}
+
+        {!hideLayout && <Footer />}
+
         <div className="relative">
           <GoTop />
         </div>

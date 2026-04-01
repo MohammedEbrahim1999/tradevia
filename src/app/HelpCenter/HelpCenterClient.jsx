@@ -366,7 +366,7 @@ export default function HelpCenterClient() {
         } catch { }
         setRecentIds([]);
     }
-
+    console.log(lastUpdated)
     return (
         <section className="relative overflow-hidden bg-gradient-to-b from-gray-50 via-white to-white">
             {/* subtle background accents */}
@@ -412,7 +412,7 @@ export default function HelpCenterClient() {
 
                 <Hero
                     uid={uid}
-                    lastUpdated={lastUpdated}
+                    lastUpdated={"31 March, 2026"}
                     statusPill={statusPill}
                     loading={loading}
                     error={error}
@@ -437,7 +437,7 @@ export default function HelpCenterClient() {
                         <OverviewTab
                             loading={loading}
                             stats={stats}
-                            lastUpdated={lastUpdated}
+                            lastUpdated={"31 March, 2026"}
                             statusPill={statusPill}
                             recentFaqs={recentFaqs}
                             onOpenFaq={(id) => {

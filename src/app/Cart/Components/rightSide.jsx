@@ -925,44 +925,32 @@ export default function RightSide({ total = 0, shipping = [], cartItems = [] }) 
               </span>
             </Chip>
           </div>
-
-          {!customerId ? (
-            <div className="mt-4 rounded-2xl border border-amber-200 bg-amber-50 p-3 text-sm text-amber-900">
-              <div className="flex items-start justify-between gap-3">
-                <div>
-                  <p className="font-extrabold">Login required</p>
-                  <p className="mt-1 text-xs text-amber-800">
-                    {tokenError || "No session detected."}
-                  </p>
-                </div>
-                <Chip tone="amber">Session</Chip>
-              </div>
-            </div>
-          ) : (
-            <div className="mt-4 rounded-2xl border border-emerald-200 bg-emerald-50 p-3 text-sm text-emerald-900">
-              <div className="flex items-start justify-between gap-3">
-                <div>
-                  <p className="font-extrabold">Logged in</p>
-                  <p className="mt-1 text-xs text-emerald-800">
-                    User ID: <b>{customerId}</b>
-                  </p>
-                </div>
-                <Chip tone="green">OK</Chip>
-              </div>
-            </div>
-          )}
-
           {/* Address */}
           <div className="mt-4">
             <div className="mb-2 flex items-end justify-between gap-3">
               <div>
                 <p className="text-sm font-extrabold text-gray-900">Delivery Address</p>
-                <p className="mt-0.5 text-xs text-gray-500">
-                  Choose where we should deliver your order
-                </p>
+                <div className="w-[340px] flex justify-between items-baseline">
+                  <p className="mt-0.5 text-xs text-gray-500 flex-1">
+                    Choose where we should deliver your order
+                  </p>
+                  {addressId ? <Chip tone="dark">Selected</Chip> : <Chip tone="amber">Required</Chip>}
+                </div>
+                {!customerId && (
+                  <div className="w-fit flex items-center justify-between gap-3 bg-[#0587A7]/5 border border-[#0587A7]/20 text-gray-700 rounded-md px-3 py-2 text-sm my-3">
+
+                    <div className="flex items-center gap-2 ">
+                      <span className="w-2 h-2 rounded-full bg-[#0587A7]"></span>
+                      <span>
+                        Please
+                        <a href="/Login" className="font-medium text-[#0587A7]"> Login </a>{" "}
+                        to select your address
+                      </span>
+                    </div>
+                  </div>
+                )}
               </div>
 
-              {addressId ? <Chip tone="dark">Selected</Chip> : <Chip tone="amber">Required</Chip>}
             </div>
 
             {addressError ? (
